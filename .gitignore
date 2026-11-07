@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (licensed datasets — never commit)
+data/snomed/*.txt
+data/snomed/*.zip
+data/snomed/RF2/
+data/sdd/*.csv
+data/sdd/*.xlsx
+data/sdd/*.json
+
+# Docker
+docker-data/
+
+# Test / coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Logs
+logs/
+*.log
+

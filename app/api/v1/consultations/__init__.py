@@ -1,0 +1,2 @@
+"""Consultations routes."""
+

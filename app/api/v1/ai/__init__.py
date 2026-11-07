@@ -1,0 +1,2 @@
+"""AI suggestion routes."""
+

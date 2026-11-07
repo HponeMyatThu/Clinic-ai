@@ -1,0 +1,389 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+8 0 obj
+<< /Length 1690 >>
+stream
+0.10 0.21 0.36 rg
+50 771.89 495.28 6 re f
+0.18 0.49 0.73 rg
+BT /F1 11 Tf 50 731.89 Td (TECHNICAL ENGINEERING SPECIFICATION) Tj ET
+0.08 0.12 0.20 rg
+BT /F1 22 Tf 50 691.89 Td (GCMS Clinical AI Backend Architecture) Tj ET
+0.35 0.40 0.48 rg
+BT /F2 12 Tf 50 663.89 Td (Technical REST API & System Architecture Specification) Tj ET
+0.85 0.88 0.92 RG 1.5 w
+50.0 613.89 m 545.28 613.89 l S
+0.96 0.97 0.99 rg
+50 378.89 495.28 190 re f
+0.80 0.85 0.90 RG 1 w
+50 378.89 495.28 190 re S
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 540.89 Td (System Name:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 540.89 Td (GCMS Clinical AI Consultation Backend) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 516.89 Td (Document Type:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 516.89 Td (Technical Architecture & REST API Specification) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 492.89 Td (Edition:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 492.89 Td (FastAPI + Ollama Production Reference v1.2) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 468.89 Td (Engineering Leads:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 468.89 Td (Senior AI Backend Engineer & Healthcare Architect) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 444.89 Td (Technology Stack:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 444.89 Td (Python 3.11+, FastAPI, SQLAlchemy 2.0, PostgreSQL 16, Ollama) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 420.89 Td (Publication Date:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 420.89 Td (November 2026) Tj ET
+0.50 0.55 0.60 rg
+BT /F2 8.5 Tf 50 95 Td (CONFIDENTIAL ? For Authorized Healthcare, Clinical & Engineering Stakeholders Only) Tj ET
+BT /F2 8.5 Tf 50 81 Td (Complies with Singapore MOH, HSA, and PDPA Healthcare Guidelines) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Length 6326 >>
+stream
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Technical Engineering Specification) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 801.89 m 545.28 801.89 l S
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 772.89 Td (1. System Architecture Overview) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 765.89 m 190.0 765.89 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 765.89 m 545.28 765.89 l S
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 749.89 Td (The GCMS Clinical AI Backend is built as an asynchronous Backend-for-Frontend \(BFF\) leveraging) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 736.39 Td (FastAPI and SQLAlchemy 2.0. It acts as a secure mediation layer between the clinician's React) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 722.89 Td (frontend, the existing Clinic Management System \(CMS\), the local Ollama AI inference runtime,) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 709.39 Td (and high-performance PostgreSQL terminology databases.) Tj ET
+0.94 0.97 1.0 rg
+50.0 600.39 495.28 90.5 re f
+0.1 0.35 0.65 RG 3 w
+50.0 690.89 m 50.0 600.39 l S
+0.1 0.35 0.65 rg
+BT /F1 9.5 Tf 64.0 674.89 Td ([IMPORTANT] Three-Tier Architectural Separation) Tj ET
+0.18 0.20 0.25 rg
+BT /F2 8.5 Tf 64.0 661.89 Td (Layer 1 \(AI Reasoning\): Ollama synthesizes unstructured consultation context into) Tj ET
+0.18 0.20 0.25 rg
+BT /F2 8.5 Tf 64.0 649.39 Td (structured candidate suggestions. Layer 2 \(Terminology Grounding\): PostgreSQL FTS &) Tj ET
+0.18 0.20 0.25 rg
+BT /F2 8.5 Tf 64.0 636.89 Td (Trigram engines verify SNOMED CT and SDD codes. Layer 3 \(Deterministic Safety\):) Tj ET
+0.18 0.20 0.25 rg
+BT /F2 8.5 Tf 64.0 624.39 Td (Independent deterministic Python rules verify allergies, interactions, and) Tj ET
+0.18 0.20 0.25 rg
+BT /F2 8.5 Tf 64.0 611.89 Td (contraindications.) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 574.39 Td (2. REST API Specification \(The 4 Core Services\)) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 567.39 m 190.0 567.39 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 567.39 m 545.28 567.39 l S
+0.12 0.22 0.36 rg
+50.0 530.39 495.0 21 re f
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 55.0 537.39 Td (Endpoint Route) Tj ET
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 200.0 537.39 Td (Method) Tj ET
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 250.0 537.39 Td (Request Payload) Tj ET
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 390.0 537.39 Td (Response & Responsibilities) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 509.39 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 516.39 Td (/api/v1/terminology/snomed/search) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 200.0 516.39 Td (GET) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 250.0 516.39 Td (q={term}&page=1&page_size=20) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 390.0 516.39 Td (Full-text \(tsvector\) + Trigram \(pg_trgm\) search on SNOM) Tj ET
+0.97 0.98 0.99 rg
+50.0 488.39 495.0 21 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 488.39 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 495.39 Td (/api/v1/terminology/sdd/search) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 200.0 495.39 Td (GET) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 250.0 495.39 Td (q={term}&page=1&page_size=20) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 390.0 495.39 Td (Multi-field search on brand, generic, strength, HSA reg) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 467.39 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 474.39 Td (/api/v1/ai/diagnoses/suggest) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 200.0 474.39 Td (POST) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 250.0 474.39 Td ({consultation_context, max_suggestions}) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 390.0 474.39 Td (Differential diagnoses with supporting factors & SNOMED) Tj ET
+0.97 0.98 0.99 rg
+50.0 446.39 495.0 21 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 446.39 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 453.39 Td (/api/v1/ai/medications/suggest) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 200.0 453.39 Td (POST) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 250.0 453.39 Td ({selected_diagnosis, consultation_context}) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 390.0 453.39 Td (Guideline therapeutics grounded in SDD with independent) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 425.39 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 432.39 Td (/api/v1/health) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 200.0 432.39 Td (GET) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 250.0 432.39 Td (None) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 390.0 432.39 Td (Service readiness probe testing PostgreSQL and Ollama c) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 401.39 Td (3. Local Ollama AI Runtime Integration) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 394.39 m 190.0 394.39 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 394.39 m 545.28 394.39 l S
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 378.39 Td (All generative AI inference runs on locally hosted instances via Ollama. The integration layer) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 364.89 Td (features:) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 346.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 346.39 Td (Connection Pooling ? Persistent httpx.AsyncClient with keepalive connections and) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 333.89 Td (configurable timeouts \(default 120s\).) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 317.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 317.39 Td (Resilience & Retries ? Tenacity exponential backoff retries on transient connection) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 304.89 Td (dropouts.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 288.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 288.39 Td (Strict JSON Mode ? Forces Ollama to emit structured JSON complying with Pydantic schemas,) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 275.89 Td (eliminating parsing failures.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 259.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 259.39 Td (Zero Hallucinations ? The AI system prompts explicitly forbid inventing SNOMED CT or SDD) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 246.89 Td (codes. Terminology mapping is exclusively performed by the database ground-truth engine.) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 216.39 Td (4. Database Architecture & PostgreSQL Schemas) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 209.39 m 190.0 209.39 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 209.39 m 545.28 209.39 l S
+0.85 0.88 0.92 RG 0.5 w
+50.0 40 m 545.28 40 l S
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
+BT /F1 8 Tf 485.28 28 Td (Page 2 of 3) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Length 5897 >>
+stream
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Technical Engineering Specification) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 801.89 m 545.28 801.89 l S
+0.12 0.22 0.36 rg
+50.0 765.89 495.0 21 re f
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 55.0 772.89 Td (Table Name) Tj ET
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 165.0 772.89 Td (Primary Key) Tj ET
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 270.0 772.89 Td (Indexed Search Strategy) Tj ET
+1.0 1.0 1.0 rg
+BT /F1 8.5 Tf 410.0 772.89 Td (Business Entity) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 744.89 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 751.89 Td (snomed_concepts) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 165.0 751.89 Td (concept_id \(String 20\)) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 270.0 751.89 Td (B-Tree on active status) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 410.0 751.89 Td (Core SNOMED CT concept registry) Tj ET
+0.97 0.98 0.99 rg
+50.0 723.89 495.0 21 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 723.89 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 730.89 Td (snomed_descriptions) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 165.0 730.89 Td (description_id \(String 20\)) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 270.0 730.89 Td (GIN on search_vector, pg_trgm on term) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 410.0 730.89 Td (FSN, preferred terms, and clinical synonyms) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 702.89 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 709.89 Td (sdd_medications) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 165.0 709.89 Td (medication_id \(String 50\)) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 270.0 709.89 Td (GIN tsvector, pg_trgm on generic/brand) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 410.0 709.89 Td (HSA-registered Singapore medication catalogue) Tj ET
+0.97 0.98 0.99 rg
+50.0 681.89 495.0 21 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 681.89 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 688.89 Td (sdd_active_ingredients) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 165.0 688.89 Td (id \(UUID\)) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 270.0 688.89 Td (pg_trgm on ingredient_name) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 410.0 688.89 Td (Chemical active ingredients and strengths) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 660.89 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 667.89 Td (audit_events) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 165.0 667.89 Td (id \(UUID\)) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 270.0 667.89 Td (B-Tree on request_id, event_type, created_at) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 410.0 667.89 Td (Immutable audit records of clinical AI operations) Tj ET
+0.97 0.98 0.99 rg
+50.0 639.89 495.0 21 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 639.89 495.0 21 re S
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 55.0 646.89 Td (ai_request_logs) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 165.0 646.89 Td (id \(UUID\)) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 270.0 646.89 Td (B-Tree on request_id, created_at) Tj ET
+0.18 0.22 0.28 rg
+BT /F2 8.0 Tf 410.0 646.89 Td (Telemetry \(tokens, latency, prompt versions\)) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 615.89 Td (5. Privacy Boundary & PII Scrubbing Engine) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 608.89 m 190.0 608.89 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 608.89 m 545.28 608.89 l S
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 592.89 Td (To enforce Section 5 of the architecture specification, all free-text notes pass through the) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 579.39 Td (PIIFilter before prompt construction:) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 560.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 560.89 Td (Singapore NRIC / FIN ? Regex pattern matches and redacts national identifiers) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 548.39 Td ([STFGM]\\d{7}[A-Z] -> [NRIC_REDACTED].) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 531.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 531.89 Td (Contact Information ? Singapore phone numbers \(+65 6/8/9xxx xxxx\) and emails are redacted.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 515.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 515.39 Td (Context Minimization ? ContextMinimizer strips patient identity fields \(names, addresses,) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 502.89 Td (MRNs\) prior to processing.) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 472.39 Td (6. Independent Clinical Safety Engine) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 465.39 m 190.0 465.39 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 465.39 m 545.28 465.39 l S
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 449.39 Td (Medication candidates generated by Ollama are cross-checked against four independent safety) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 435.89 Td (algorithms:) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 417.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 417.39 Td (Allergy Cross-Reactivity ? Detects documented drug allergies and class cross-sensitivities) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 404.89 Td (\(Penicillins, Cephalosporins, NSAIDs, Sulfas\).) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 388.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 388.39 Td (High-Risk Drug Interactions ? Evaluates concurrent medications for major clinical) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 375.89 Td (interactions \(e.g., Warfarin + NSAIDs, Simvastatin + Macrolides\).) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 359.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 359.39 Td (Contraindication Rules ? Evaluates pregnancy teratogens \(Category X/D\) and renal clearance) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 346.89 Td (thresholds \(eGFR < 30 mL/min for Metformin\).) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 330.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 330.39 Td (Duplicate Therapy ? Flags simultaneous prescriptions sharing active chemical substances.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 40 m 545.28 40 l S
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
+BT /F1 8 Tf 485.28 28 Td (Page 3 of 3) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000208 00000 n 
+0000000278 00000 n 
+0000000420 00000 n 
+0000000562 00000 n 
+0000000705 00000 n 
+0000002447 00000 n 
+0000008825 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+14775
+%%EOF

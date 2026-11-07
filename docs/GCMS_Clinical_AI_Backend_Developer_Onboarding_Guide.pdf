@@ -1,0 +1,311 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+8 0 obj
+<< /Length 1659 >>
+stream
+0.10 0.21 0.36 rg
+50 771.89 495.28 6 re f
+0.18 0.49 0.73 rg
+BT /F1 11 Tf 50 731.89 Td (DEVELOPER ONBOARDING GUIDE) Tj ET
+0.08 0.12 0.20 rg
+BT /F1 22 Tf 50 691.89 Td (GCMS Developer Onboarding & Run Guide) Tj ET
+0.35 0.40 0.48 rg
+BT /F2 12 Tf 50 663.89 Td (Complete Setup, Download, Configuration, Seeding & Execution Manual) Tj ET
+0.85 0.88 0.92 RG 1.5 w
+50.0 613.89 m 545.28 613.89 l S
+0.96 0.97 0.99 rg
+50 378.89 495.28 190 re f
+0.80 0.85 0.90 RG 1 w
+50 378.89 495.28 190 re S
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 540.89 Td (Project:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 540.89 Td (GCMS Clinical AI Consultation Backend) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 516.89 Td (Document Type:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 516.89 Td (New Developer Setup & Run Guide) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 492.89 Td (Target Audience:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 492.89 Td (Backend Engineers, DevOps, Full-Stack Developers) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 468.89 Td (Prerequisites:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 468.89 Td (Python 3.11+, Docker Desktop / Colima, Ollama) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 444.89 Td (Repository:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 444.89 Td (https://github.com/HponeMyatThu/Clinic-ai.git) Tj ET
+0.20 0.25 0.32 rg
+BT /F1 9.5 Tf 70 420.89 Td (Publication Date:) Tj ET
+0.10 0.15 0.20 rg
+BT /F2 9.5 Tf 220 420.89 Td (November 2026) Tj ET
+0.50 0.55 0.60 rg
+BT /F2 8.5 Tf 50 95 Td (CONFIDENTIAL ? For Authorized Healthcare, Clinical & Engineering Stakeholders Only) Tj ET
+BT /F2 8.5 Tf 50 81 Td (Complies with Singapore MOH, HSA, and PDPA Healthcare Guidelines) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Length 4065 >>
+stream
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Developer Onboarding Guide) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 801.89 m 545.28 801.89 l S
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 772.89 Td (1. Prerequisites & Environment Requirements) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 765.89 m 190.0 765.89 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 765.89 m 545.28 765.89 l S
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 749.89 Td (Welcome to the GCMS Clinical AI Backend project. This guide covers everything needed to clone,) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 736.39 Td (configure, seed, and run the backend locally on macOS \(Apple Silicon recommended\) or Linux.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 717.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 717.89 Td (Operating System ? macOS \(Apple Silicon M1/M2/M3/M4 recommended for Metal acceleration\) or) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 705.39 Td (Ubuntu 22.04+.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 688.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 688.89 Td (Python Runtime ? Python 3.11 or Python 3.12 \(Python 3.12 recommended; macOS command: brew) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 676.39 Td (install python@3.12\).) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 659.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 659.89 Td (Container Engine ? Docker & Docker Compose \(Docker Desktop or Colima for PostgreSQL and) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 647.39 Td (Redis\).) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 630.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 630.89 Td (Local AI Runtime ? Ollama installed natively on the host \(command: brew install ollama\).) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 600.39 Td (2. Step-by-Step Installation & Setup) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 593.39 m 190.0 593.39 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 593.39 m 545.28 593.39 l S
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 567.39 Td (Step 2.1: Clone and Create Virtual Environment) Tj ET
+0.12 0.15 0.20 rg
+50.0 485.39 495.28 68 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 538.39 Td (git clone https://github.com/HponeMyatThu/Clinic-ai.git gcms_ai_backend) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 526.39 Td (cd gcms_ai_backend) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 514.39 Td (python3.12 -m venv .venv) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 502.39 Td (source .venv/bin/activate) Tj ET
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 465.39 Td (Step 2.2: Install Project Dependencies) Tj ET
+0.12 0.15 0.20 rg
+50.0 419.39 495.28 32 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 436.39 Td (pip install -r requirements.txt) Tj ET
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 399.39 Td (Step 2.3: Configure Environment Variables) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 385.39 Td (Copy the template configuration file to .env:) Tj ET
+0.12 0.15 0.20 rg
+50.0 334.89 495.28 32 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 351.89 Td (cp .env.example .env) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 310.89 Td (3. Starting Database & Local AI Services) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 303.89 m 190.0 303.89 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 303.89 m 545.28 303.89 l S
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 277.89 Td (Step 3.1: Start PostgreSQL and Redis via Docker) Tj ET
+0.12 0.15 0.20 rg
+50.0 207.89 495.28 56 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 248.89 Td (docker compose up -d) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 236.89 Td (# Verify containers are running healthy:) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 224.89 Td (docker compose ps) Tj ET
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 187.89 Td (Step 3.2: Start Ollama and Pull the Clinical Model) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 173.89 Td (Run Ollama natively on macOS to take full advantage of Apple Silicon unified memory and Metal) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 160.39 Td (GPU acceleration:) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 40 m 545.28 40 l S
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
+BT /F1 8 Tf 485.28 28 Td (Page 2 of 3) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Length 5083 >>
+stream
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Developer Onboarding Guide) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 801.89 m 545.28 801.89 l S
+0.12 0.15 0.20 rg
+50.0 694.89 495.28 92 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 771.89 Td (# Start Ollama daemon in a terminal:) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 759.89 Td (ollama serve) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 747.89 Td () Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 735.89 Td (# In a separate terminal, pull the recommended 8B reasoning model:) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 723.89 Td (ollama pull qwen3:8b) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 711.89 Td (# \(Alternative option: ollama pull llama3.1:8b\)) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 670.89 Td (4. Database Seeding & Schema Verification) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 663.89 m 190.0 663.89 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 663.89 m 545.28 663.89 l S
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 647.89 Td (The project comes with a synthetic development dataset containing 50 primary care SNOMED CT) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 50.0 634.39 Td (concepts and 40 Singapore Drug Dictionary \(SDD\) medications:) Tj ET
+0.12 0.15 0.20 rg
+50.0 571.89 495.28 44 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 600.89 Td (# Run the synthetic seed script inside \(.venv\):) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 588.89 Td (python -m scripts.seed_dev_data) Tj ET
+0.92 0.98 0.94 rg
+50.0 508.89 495.28 53.0 re f
+0.12 0.5 0.25 RG 3 w
+50.0 561.89 m 50.0 508.89 l S
+0.12 0.5 0.25 rg
+BT /F1 9.5 Tf 64.0 545.89 Td ([SUCCESS] Verifying Database in Docker) Tj ET
+0.18 0.20 0.25 rg
+BT /F2 8.5 Tf 64.0 532.89 Td (docker exec -it gcms-postgres psql -U gcms -d gcms_ai -c 'SELECT count\(*\) FROM) Tj ET
+0.18 0.20 0.25 rg
+BT /F2 8.5 Tf 64.0 520.39 Td (snomed_concepts;' Should return 50 rows for concepts and 196 rows for descriptions.) Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 482.89 Td (5. Running the Application & Testing APIs) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 475.89 m 190.0 475.89 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 475.89 m 545.28 475.89 l S
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 449.89 Td (Step 5.1: Launch the FastAPI Application) Tj ET
+0.12 0.15 0.20 rg
+50.0 403.89 495.28 32 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 420.89 Td (uvicorn app.main:app --reload --port 8000) Tj ET
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 383.89 Td (Step 5.2: Access Interactive API Documentation) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 369.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 369.89 Td (Swagger UI ? http://localhost:8000/docs) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 353.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 353.39 Td (ReDoc Interface ? http://localhost:8000/redoc) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 336.89 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 336.89 Td (Health & Readiness Probe ? http://localhost:8000/api/v1/health) Tj ET
+0.15 0.20 0.30 rg
+BT /F1 11.5 Tf 50.0 310.39 Td (Step 5.3: Example Test Commands) Tj ET
+0.12 0.15 0.20 rg
+50.0 216.39 495.28 80 re f
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 281.39 Td (# 1. Test SNOMED Search:) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 269.39 Td (curl 'http://127.0.0.1:8000/api/v1/terminology/snomed/search?q=asthma') Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 257.39 Td () Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 245.39 Td (# 2. Test SDD Medication Search:) Tj ET
+0.85 0.92 0.98 rg
+BT /F2 8.5 Tf 62.0 233.39 Td (curl 'http://127.0.0.1:8000/api/v1/terminology/sdd/search?q=panadol') Tj ET
+0.10 0.25 0.45 rg
+BT /F1 15 Tf 50.0 192.39 Td (6. Troubleshooting Guide) Tj ET
+0.18 0.49 0.73 RG 1.5 w
+50.0 185.39 m 190.0 185.39 l S
+0.85 0.88 0.92 RG 0.5 w
+190.0 185.39 m 545.28 185.39 l S
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 169.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 169.39 Td (Error: relation 'snomed_descriptions' does not exist ? Run 'python -m) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 156.89 Td (scripts.seed_dev_data' to create and populate the database tables.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 140.39 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 140.39 Td (Error: Connection refused on port 5432 ? Ensure PostgreSQL is running: 'docker compose up) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 127.88999999999999 Td (-d'.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 111.38999999999999 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 111.38999999999999 Td (Ollama unreachable in /health ? Ensure Ollama is running on localhost:11434 with 'ollama) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 98.88999999999999 Td (serve'.) Tj ET
+0.18 0.49 0.73 rg
+BT /F1 9 Tf 58.0 82.38999999999999 Td (*) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 82.38999999999999 Td (ModuleNotFoundError ? Ensure you activated the virtual environment: 'source) Tj ET
+0.20 0.22 0.26 rg
+BT /F2 9.0 Tf 72.0 69.88999999999999 Td (.venv/bin/activate'.) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 40 m 545.28 40 l S
+0.50 0.55 0.62 rg
+BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
+BT /F1 8 Tf 485.28 28 Td (Page 3 of 3) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000208 00000 n 
+0000000278 00000 n 
+0000000420 00000 n 
+0000000562 00000 n 
+0000000705 00000 n 
+0000002416 00000 n 
+0000006533 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+11669
+%%EOF
