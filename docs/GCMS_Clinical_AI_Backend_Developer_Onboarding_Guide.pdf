@@ -1,311 +1,118 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 6 0 R 7 0 R] /Count 3 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 6 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+<<
+/Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 8 0 obj
-<< /Length 1659 >>
-stream
-0.10 0.21 0.36 rg
-50 771.89 495.28 6 re f
-0.18 0.49 0.73 rg
-BT /F1 11 Tf 50 731.89 Td (DEVELOPER ONBOARDING GUIDE) Tj ET
-0.08 0.12 0.20 rg
-BT /F1 22 Tf 50 691.89 Td (GCMS Developer Onboarding & Run Guide) Tj ET
-0.35 0.40 0.48 rg
-BT /F2 12 Tf 50 663.89 Td (Complete Setup, Download, Configuration, Seeding & Execution Manual) Tj ET
-0.85 0.88 0.92 RG 1.5 w
-50.0 613.89 m 545.28 613.89 l S
-0.96 0.97 0.99 rg
-50 378.89 495.28 190 re f
-0.80 0.85 0.90 RG 1 w
-50 378.89 495.28 190 re S
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 540.89 Td (Project:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 540.89 Td (GCMS Clinical AI Consultation Backend) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 516.89 Td (Document Type:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 516.89 Td (New Developer Setup & Run Guide) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 492.89 Td (Target Audience:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 492.89 Td (Backend Engineers, DevOps, Full-Stack Developers) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 468.89 Td (Prerequisites:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 468.89 Td (Python 3.11+, Docker Desktop / Colima, Ollama) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 444.89 Td (Repository:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 444.89 Td (https://github.com/HponeMyatThu/Clinic-ai.git) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 420.89 Td (Publication Date:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 420.89 Td (November 2026) Tj ET
-0.50 0.55 0.60 rg
-BT /F2 8.5 Tf 50 95 Td (CONFIDENTIAL ? For Authorized Healthcare, Clinical & Engineering Stakeholders Only) Tj ET
-BT /F2 8.5 Tf 50 81 Td (Complies with Singapore MOH, HSA, and PDPA Healthcare Guidelines) Tj ET
-endstream
+<<
+/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+>>
 endobj
 9 0 obj
-<< /Length 4065 >>
-stream
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Developer Onboarding Guide) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 801.89 m 545.28 801.89 l S
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 772.89 Td (1. Prerequisites & Environment Requirements) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 765.89 m 190.0 765.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 765.89 m 545.28 765.89 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 749.89 Td (Welcome to the GCMS Clinical AI Backend project. This guide covers everything needed to clone,) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 736.39 Td (configure, seed, and run the backend locally on macOS \(Apple Silicon recommended\) or Linux.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 717.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 717.89 Td (Operating System ? macOS \(Apple Silicon M1/M2/M3/M4 recommended for Metal acceleration\) or) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 705.39 Td (Ubuntu 22.04+.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 688.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 688.89 Td (Python Runtime ? Python 3.11 or Python 3.12 \(Python 3.12 recommended; macOS command: brew) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 676.39 Td (install python@3.12\).) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 659.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 659.89 Td (Container Engine ? Docker & Docker Compose \(Docker Desktop or Colima for PostgreSQL and) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 647.39 Td (Redis\).) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 630.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 630.89 Td (Local AI Runtime ? Ollama installed natively on the host \(command: brew install ollama\).) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 600.39 Td (2. Step-by-Step Installation & Setup) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 593.39 m 190.0 593.39 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 593.39 m 545.28 593.39 l S
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 567.39 Td (Step 2.1: Clone and Create Virtual Environment) Tj ET
-0.12 0.15 0.20 rg
-50.0 485.39 495.28 68 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 538.39 Td (git clone https://github.com/HponeMyatThu/Clinic-ai.git gcms_ai_backend) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 526.39 Td (cd gcms_ai_backend) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 514.39 Td (python3.12 -m venv .venv) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 502.39 Td (source .venv/bin/activate) Tj ET
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 465.39 Td (Step 2.2: Install Project Dependencies) Tj ET
-0.12 0.15 0.20 rg
-50.0 419.39 495.28 32 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 436.39 Td (pip install -r requirements.txt) Tj ET
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 399.39 Td (Step 2.3: Configure Environment Variables) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 385.39 Td (Copy the template configuration file to .env:) Tj ET
-0.12 0.15 0.20 rg
-50.0 334.89 495.28 32 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 351.89 Td (cp .env.example .env) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 310.89 Td (3. Starting Database & Local AI Services) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 303.89 m 190.0 303.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 303.89 m 545.28 303.89 l S
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 277.89 Td (Step 3.1: Start PostgreSQL and Redis via Docker) Tj ET
-0.12 0.15 0.20 rg
-50.0 207.89 495.28 56 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 248.89 Td (docker compose up -d) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 236.89 Td (# Verify containers are running healthy:) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 224.89 Td (docker compose ps) Tj ET
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 187.89 Td (Step 3.2: Start Ollama and Pull the Clinical Model) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 173.89 Td (Run Ollama natively on macOS to take full advantage of Apple Silicon unified memory and Metal) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 160.39 Td (GPU acceleration:) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 40 m 545.28 40 l S
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
-BT /F1 8 Tf 485.28 28 Td (Page 2 of 3) Tj ET
-endstream
+<<
+/Author (\(anonymous\)) /CreationDate (D:20261108014256+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261108014256+06'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
 endobj
 10 0 obj
-<< /Length 5083 >>
+<<
+/Count 3 /Kids [ 5 0 R 6 0 R 7 0 R ] /Type /Pages
+>>
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1114
+>>
 stream
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Developer Onboarding Guide) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 801.89 m 545.28 801.89 l S
-0.12 0.15 0.20 rg
-50.0 694.89 495.28 92 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 771.89 Td (# Start Ollama daemon in a terminal:) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 759.89 Td (ollama serve) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 747.89 Td () Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 735.89 Td (# In a separate terminal, pull the recommended 8B reasoning model:) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 723.89 Td (ollama pull qwen3:8b) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 711.89 Td (# \(Alternative option: ollama pull llama3.1:8b\)) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 670.89 Td (4. Database Seeding & Schema Verification) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 663.89 m 190.0 663.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 663.89 m 545.28 663.89 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 647.89 Td (The project comes with a synthetic development dataset containing 50 primary care SNOMED CT) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 634.39 Td (concepts and 40 Singapore Drug Dictionary \(SDD\) medications:) Tj ET
-0.12 0.15 0.20 rg
-50.0 571.89 495.28 44 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 600.89 Td (# Run the synthetic seed script inside \(.venv\):) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 588.89 Td (python -m scripts.seed_dev_data) Tj ET
-0.92 0.98 0.94 rg
-50.0 508.89 495.28 53.0 re f
-0.12 0.5 0.25 RG 3 w
-50.0 561.89 m 50.0 508.89 l S
-0.12 0.5 0.25 rg
-BT /F1 9.5 Tf 64.0 545.89 Td ([SUCCESS] Verifying Database in Docker) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 532.89 Td (docker exec -it gcms-postgres psql -U gcms -d gcms_ai -c 'SELECT count\(*\) FROM) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 520.39 Td (snomed_concepts;' Should return 50 rows for concepts and 196 rows for descriptions.) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 482.89 Td (5. Running the Application & Testing APIs) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 475.89 m 190.0 475.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 475.89 m 545.28 475.89 l S
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 449.89 Td (Step 5.1: Launch the FastAPI Application) Tj ET
-0.12 0.15 0.20 rg
-50.0 403.89 495.28 32 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 420.89 Td (uvicorn app.main:app --reload --port 8000) Tj ET
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 383.89 Td (Step 5.2: Access Interactive API Documentation) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 369.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 369.89 Td (Swagger UI ? http://localhost:8000/docs) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 353.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 353.39 Td (ReDoc Interface ? http://localhost:8000/redoc) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 336.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 336.89 Td (Health & Readiness Probe ? http://localhost:8000/api/v1/health) Tj ET
-0.15 0.20 0.30 rg
-BT /F1 11.5 Tf 50.0 310.39 Td (Step 5.3: Example Test Commands) Tj ET
-0.12 0.15 0.20 rg
-50.0 216.39 495.28 80 re f
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 281.39 Td (# 1. Test SNOMED Search:) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 269.39 Td (curl 'http://127.0.0.1:8000/api/v1/terminology/snomed/search?q=asthma') Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 257.39 Td () Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 245.39 Td (# 2. Test SDD Medication Search:) Tj ET
-0.85 0.92 0.98 rg
-BT /F2 8.5 Tf 62.0 233.39 Td (curl 'http://127.0.0.1:8000/api/v1/terminology/sdd/search?q=panadol') Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 192.39 Td (6. Troubleshooting Guide) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 185.39 m 190.0 185.39 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 185.39 m 545.28 185.39 l S
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 169.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 169.39 Td (Error: relation 'snomed_descriptions' does not exist ? Run 'python -m) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 156.89 Td (scripts.seed_dev_data' to create and populate the database tables.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 140.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 140.39 Td (Error: Connection refused on port 5432 ? Ensure PostgreSQL is running: 'docker compose up) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 127.88999999999999 Td (-d'.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 111.38999999999999 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 111.38999999999999 Td (Ollama unreachable in /health ? Ensure Ollama is running on localhost:11434 with 'ollama) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 98.88999999999999 Td (serve'.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 82.38999999999999 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 82.38999999999999 Td (ModuleNotFoundError ? Ensure you activated the virtual environment: 'source) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 69.88999999999999 Td (.venv/bin/activate'.) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 40 m 545.28 40 l S
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
-BT /F1 8 Tf 485.28 28 Td (Page 3 of 3) Tj ET
-endstream
+Gatm:939k/&DlSObc3%-K4ESt+5I*0Emk+#:!?mc@hOn@Crt<b.K@+,4,*`pHg`-=&5PdDbW"EAA-+*,8H$6G!)=aUSeE4^7(5F[5p<gi+R2,^aDRncJkLsZH+o%]H9^7;g%9RSU$'3,(Vf\Q@M7QA?s&)l%KjUlW,"FJTCbO"2?W5"_fD/t5>kUVff+X+TC!LcR,f-q%8hj^2:CHo"b^RUL<3-ED(s;CI1)[Ure"YhrGh=FE&"s3jtI0=B;>9I)G]3(bcaC$>YiDVB8GsuqP(lV%tiP^0Fl'%XC!2o1d[2HU)KM<C97BUg#W:\dR5A(3/,`ocD2kh<5g>L!`%e;4Vt.o0U?j;'39262Oq/M1b<"o7@4N%"uT\I2Pckb/5Nh9Yi)P(#;DHJOiho+d&:iGF]Hqq#.Vr[M-)!2_(WO(C93c,W8b/l.eB2oW2-O'f67c-(nSu'TAif0+of)*(c@,/k:%YQ=n,dU;'-3rQ[@W]/=Yn*BWHe?TUlN==suAcId*9.]d@MP?"RCAf"9p3ec3n-h<*RpD3?sQ=,"<I9*JaonS\YX,Ac8.MtUq1bjdBBQB''NjGplnpT[?.TNu_oTVK#!Es8=RQ#O#+9AD0A57i%[[r$3uLijn$0?O<c=(uud:q-L8rlA$+f4pO_H.bUgi]9QsH,1T&UeDIU]1I8;pAko0T%!tNC`A%TeU<F!'GtV2Y@J,1/;5q&iW79O1sTS*fb[a*NuYHM3EtG<73\a=5<jA>@eiNeA^5@RPfVhjY3-VW]Y$6%!&#:fo((OS\5(PN\hTL+)uc$o_(VEi'lBsZdk<(g@c39Ln==&'7<Of'F4U:LNn%L*_`:2)a@DiX?n#3TjnusLGPo5ARa?A:\+;GW-`WL)OFEeWW&%dpbe60alKaWn`>tKB33r)F2US'k24<0h_05fsU,Rj(BPfj1:5;0:UWuVi6E@HZSIU?C7qdNK5?egdhVVZu48?s.;mZAGKX>YE2>r;o#5r6Q"nQ\dQVKN.L-[NFD^LgGn9VHWM!$&WiEW7Zgk+8LP!c3n?@n?5#AagX38gB9.uSb&;l<MhrDbZ<1+j8[nX("ge8cb+&hC$c]_!uGFW=#nRrX&9Dc.0P\G~>endstream
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1842
+>>
+stream
+Gb!#\D/U=Q&H88.0iFj*oYe'/^629YOu,[o(E-t_PE79#(iXEN]'CZ%F?fcE2C(r$,d^(:#)+qCGA$(.1QTRL^r?o4hbaIEIKZ2P":0_/%#A]00KP!<dD<9oZC:%4&GX0N_et9ShuMV#m[rLT-in(`]/h#^&5PI0+u\]^">!/9i-Sil^)P]g'Q[q"$O-bfppWk[6LkcG_J-Rq7@#8_Pq_:)aq%qQ'h7YV+.r&/l&4#-p'"0+BA,cP*_e@-it[-JE@O4,Zr<P<qKNIKj#Phm0aRp.<`K]WHL!'D"d:.$_sjgn4BW,sT%8KJV#_hm\f/GqFe%VLLS9MmPbi?H/pSTo[Xq"PJoON\'P:JK(L46_c3Bnl71kTgJLhf`!fh]#<2lsL;Tj7`YgsAeK5$!jg91Uti(bmY/B8r&H&>\WLrR=p\e4eKV/\PJ8\o=2Ua;`H6`t)%WFh2%G73'[_S^d,I$-qun,fT"C@neWcV!%2oX1E6Z!-([8lJ0H3/_aL#?`M="Wr1S#N?s8[mD\iT7<!B4MaI!knNTXMK5WQrK+`+n`,u_X>/:!jQhuH!omH;ULp`jh8F]ra,q5dGT(Q1H"4fLrT"t8g\2d&rUH!0e=bHs2@WRW+At\9>1A.tjEZ)mf2bu:f>;i/LO@k2n0+HrgI9j(AA!532mhBg5.K0r(W=aN+>]6(g,QL]&bP'6jdI1&JhtO-7MN-pBPTZ>eMGOZL_GI"O_th#`-Ai`(;3B2Xq:O=")-`&i%TM%@-`Rcht?DFCIdWQ]`G`m)oF@!_U,1]inlVu>?t;^a:euP2$OPDqRILMKO?DX6ot*sP^.Q(l!Vi3RTQL6S\K1b\@?$h[&?%!=JR-U1L[80k##$*@H,I`@BucZXk9;UY-TK_UZmi,V;C&o19.<"[[k3sVb=8DpN,K74kVHoWkb^ep,WkLG$'EDJ.uiSrXo1F*a#eMR"os\s1i[B+N-^Y5!-PmhQH+0BEDWfL8"$>GA['+%o^^1`dOJN-E0M*D&VDg^Ee<nd98i?bfRTi8AY\ZeM`da=:r35\#r4QB?.Z]!ICCp=1<W@GPB(7>ibVtho8C;m"e938kXVO'!'jATgLX%XICjtUc,3tOo+PNQFO)IO87fZ&oK8@Slk!Fb%Ks4bUZr*HMMp*$Ge(Z%Rb;'G@uL,D28hd@%haGr&[PN_/(t:f5JV<-h+TZLuWA%^jk?KjJY+m(&G^c_BbVTP%+N=^+QF?]NC'T).G"DaHdJ/Ss"h_F^f7OoSTc2W_'R5om6>6WE`j\fW%JkOg3DYGEt.ZXr49E5L.opD=gbJ!f5&,!3.$mYI2oqJK$^@cL0&(.[`hQ;$'*5eq]1fB<b^s*PKJDrs4@lM2/^@X^4tjHFioMg=@V$e+UMf+`41lDA..bm/;jRUUGW8-73BM0hU'fK*jQWCX1'rYM2K(jme8n6>V!]JL@n4c54t-$&Nm#``e#3PjnlPL*?d*--o_fN\Zb6M+CeI/8'B\D^f3lS7oZ>2AN2e:,0NK\F@LW5VDiOMimKlr`mnr;7(Q`Qp#3-$CG(Dp$J'Cc;?QH%39_h?C&Q$K@IP+0L8(^*Sj],:,j+5r\'Zo\R;e]ZsOH7qQ.9V4S1R'9ipepLr,$7X)-79G:e<0D3jKKR+P#<9I>+[H4TTQ3mYe*N30="Sb4Ui?r";1"Mg2*XC>o#\-ugnB3CA4^Ml'"M+HPEgk[I\7Qu9HZ#/#*<e18Zm06jRd<[Fm/V=(I]A]b+)lch,7t3Q\a48$!XtDs2:JNQ5rF8i$%'Hc<fDX1Gnb(f%9iLMnJ(a;Lf\+g"l1O0.AacuA:c#t26R\OL\2H6QEt/ni))rR_JqO('b=5te~>endstream
+endobj
+13 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1689
+>>
+stream
+Gb!;cD/\E'&H88.0tIl3/h2e2?GE>/;BT&@"?><`<D=3FlihdE]fs2M4fLZ[ZYMoNEH5;77;Yl,RsfcuSp=q@@,Qh*^HhqjdfOi^'W;=r,u@&J/?WBj3;IqgS!B!7Y!\'/q&\t>$/@jkVqA4E^bjQDhPCP.<p($/:u@s39M/U2#%BU:2&s\=cs[%]]]Ah"&24nEN7&HRKmBm<$&9I^8'<==AL,`KYkS?Z1\I+Gpc3_`an?cDn.OmKlYOU_Yk:]5[d^lG[o/j^k:49YWtF+Om@C6#WgK+Sb-cb=qnOj^\H^f=/<:F8It`F9q!.D1H8pHS!Wnbo+tF&ZBaDq53J-4X`&31[>/;<g'G.\B[PK!6DVo:cFV4g`_^s**"_oh[/_:*Fo80l1[P9BlD<>?gl5%45\BAt+&G'/jl5i-#H$3Z\")DskD]9V,q8ClE[(XHM*7I@.q1e>U$sTTVq8B/]eta)L</8oAT\7q;/Q:j[:]u&s7Nr"^q^rSP4([7ad(eN-V\<P9$6O:Xrr?J^lS/cZmn`H60+T0=%9%I\R-Sae))MgmN;Z3<oV9)ASheO[m%)C*I7!=LT/>+bYP=!,f%(kE;*+m7mrnq][6ED7K,>X@a25HR8a<O+eedJ/hNmlSDtB%grbt($r?/nK09\dY2bIL$K0Md'//.c&EGV^:&$b7SO"hSgK_dG8Iu46;;$j9G.Ctoub#L&$aGS:uF?f%fk_?[^it6A8GV^FJ%5I9GMc=-gh/23@oEPfD.P5R#B=I?fE]1Jb"ko`:5JD^E>#oX!mO5+u<Pa(p`JSu8W%"dAPIs01G-<#cXW:>Urjam0M2N=742eIAe&RjH'XR$)[G<Dp?/qE]hC[D.FYhZ>Bu=ea1eu^Vh.-&k'6p"^'sH%nXd"5dndW2,/M':eWe$)mW;*7Jfp7%/n,Ed3X#<ftO\n6a8A_.o*';O7js$*R`"(p`&j4&crp/!fgtZ'4nJ&Cc$N[&W2G9C:rtcMBXC_lQg6s_AaTcj)WU#-oMH2@;]JE/QO`O3g)pGcuphGL.qD`4*2.q*jehgZ7QXt?slbtX;nJXjW>hQWB)RJJWp.]Ch"S8295r97RZ&8NQCTBk!j[5;S*2Hg^W1u&WmV?7j=MK]eJ=d"+YuI1Snm6\K,b@H<%IL:jm\?F8loAr=dq]VV-OSBJD\']c$XLdr3]UZ0>i`3%O%$=>;X)e+74C$!M+T0FFTUI__>T%0$DGBhR`Z6VCfHY$hUkidC72*F6qC]diJHG?gJ5jF?F%4F,%+cTWR+'l$NIC]6jVGq8o$6+Cr]j`+%7WbC^7R$8HP;f*?q.CjUR?il?KLbFV;_7^EQZl/pOV_84lmlmDmLN0+13Wjl=!G;l">a<n9bU.QO-$;`LH*-;hqGj"N:hFYI1GY_pD%QBt_1Ku6$>Gq7=4-nd(lK1Ipu/lSUL)Rdp6poSH"k!E*o+Fn9I@IHBPHeS]WppqmtFL(Xte!(Ds0idoJYoB7=4U'r0^=Z+jHtAGcqu67.qJha/oc:rh#R)P,Wjp=U0ZAiSauk6i@'[]P4i0'Po0b/mcW)Hp9Q9;Y!Uk/Z'6Ck3W:&1N!"Lfg)9%USeEG,+N6YlN>^nNC*"@Y_`TZ:gMnS@k17aDZMi68l[=A$SU[b:DF71J8_qFfog`PqbC:E^37>=+4dV^\,ns'1_j:\Nr3JNa4!F`k\QN~>endstream
 endobj
 xref
-0 11
+0 14
 0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000133 00000 n 
-0000000208 00000 n 
-0000000278 00000 n 
-0000000420 00000 n 
-0000000562 00000 n 
-0000000705 00000 n 
-0000002416 00000 n 
-0000006533 00000 n 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000436 00000 n 
+0000000641 00000 n 
+0000000846 00000 n 
+0000001051 00000 n 
+0000001120 00000 n 
+0000001400 00000 n 
+0000001472 00000 n 
+0000002678 00000 n 
+0000004612 00000 n 
 trailer
-<< /Size 11 /Root 1 0 R >>
+<<
+/ID 
+[<ec82fa77530ab78da0e56af1bf29a205><ec82fa77530ab78da0e56af1bf29a205>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 9 0 R
+/Root 8 0 R
+/Size 14
+>>
 startxref
-11669
+6393
 %%EOF

@@ -1,297 +1,112 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 6 0 R 7 0 R] /Count 3 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 6 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
 endobj
 8 0 obj
-<< /Length 1681 >>
-stream
-0.10 0.21 0.36 rg
-50 771.89 495.28 6 re f
-0.18 0.49 0.73 rg
-BT /F1 11 Tf 50 731.89 Td (EXECUTIVE BUSINESS WHITEPAPER) Tj ET
-0.08 0.12 0.20 rg
-BT /F1 22 Tf 50 691.89 Td (GCMS Clinical AI Consultation Platform) Tj ET
-0.35 0.40 0.48 rg
-BT /F2 12 Tf 50 663.89 Td (Executive Business Whitepaper & Clinical Governance Architecture) Tj ET
-0.85 0.88 0.92 RG 1.5 w
-50.0 613.89 m 545.28 613.89 l S
-0.96 0.97 0.99 rg
-50 378.89 495.28 190 re f
-0.80 0.85 0.90 RG 1 w
-50 378.89 495.28 190 re S
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 540.89 Td (System Name:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 540.89 Td (GCMS Clinical AI Consultation Platform) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 516.89 Td (Document Type:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 516.89 Td (Executive Business Whitepaper & ROI Strategy) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 492.89 Td (Edition:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 492.89 Td (Singapore Primary Care & Healthcare Enterprise v1.2) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 468.89 Td (Target Audience:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 468.89 Td (CMOs, Medical Directors, Clinic Owners, Regulators) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 444.89 Td (Regulatory Scope:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 444.89 Td (Singapore MOH, HSA AI-MD, Singapore PDPA) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 420.89 Td (Publication Date:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 420.89 Td (November 2026) Tj ET
-0.50 0.55 0.60 rg
-BT /F2 8.5 Tf 50 95 Td (CONFIDENTIAL ? For Authorized Healthcare, Clinical & Engineering Stakeholders Only) Tj ET
-BT /F2 8.5 Tf 50 81 Td (Complies with Singapore MOH, HSA, and PDPA Healthcare Guidelines) Tj ET
-endstream
+<<
+/Author (\(anonymous\)) /CreationDate (D:20261108014256+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261108014256+06'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
 endobj
 9 0 obj
-<< /Length 7314 >>
-stream
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Executive Business Whitepaper) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 801.89 m 545.28 801.89 l S
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 772.89 Td (1. Executive Summary) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 765.89 m 190.0 765.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 765.89 m 545.28 765.89 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 749.89 Td (The GCMS Clinical AI Consultation Platform is an enterprise-grade clinical decision support) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 736.39 Td (solution designed specifically for outpatient clinics and polyclinics in Singapore. The system) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 722.89 Td (addresses critical healthcare challenges: physician documentation burden, diagnostic complexity) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 709.39 Td (in high-volume clinics, and the severe medicolegal and regulatory risks associated with sending) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 695.89 Td (patient data to public cloud AI APIs.) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 677.39 Td (By utilizing local open-weights language models through Ollama, the system executes 100% of) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 663.89 Td (reasoning within the local clinic infrastructure or private VPC. No patient data leaves the) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 650.39 Td (approved healthcare boundary. The platform couples this local AI reasoning with licensed SNOMED) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 636.89 Td (CT and Singapore Drug Dictionary \(SDD\) terminologies to guarantee zero-hallucination medical) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 623.39 Td (coding.) Tj ET
-0.93 0.99 0.95 rg
-50.0 526.89 495.28 78.0 re f
-0.1 0.55 0.35 RG 3 w
-50.0 604.89 m 50.0 526.89 l S
-0.1 0.55 0.35 rg
-BT /F1 9.5 Tf 64.0 588.89 Td ([SECURITY] Doctor-in-the-Loop Clinical Principle) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 575.89 Td (The system operates strictly as decision support. The AI never finalizes orders, writes) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 563.39 Td (prescriptions autonomously, or substitutes clinician judgment. Every AI suggestion) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 550.89 Td (requires review and doctor confirmation before recording into the Clinic Management) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 538.39 Td (System.) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 500.89 Td (2. Strategic Value Proposition & ROI) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 493.89 m 190.0 493.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 493.89 m 545.28 493.89 l S
-0.12 0.22 0.36 rg
-50.0 456.89 495.0 21 re f
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 55.0 463.89 Td (Operational Metric) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 180.0 463.89 Td (Traditional Consultation Workflow) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 360.0 463.89 Td (GCMS AI-Assisted Consultation) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 435.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 442.89 Td (Encounter Documentation) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 180.0 442.89 Td (Physicians spend 4-7 minutes per patient typing notes) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 360.0 442.89 Td (Reduced by 35% with structured extraction & suggestions) Tj ET
-0.97 0.98 0.99 rg
-50.0 414.89 495.0 21 re f
-0.85 0.88 0.92 RG 0.5 w
-50.0 414.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 421.89 Td (Terminology Coding) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 180.0 421.89 Td (Manual searching across 350,000+ SNOMED CT codes) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 360.0 421.89 Td (Instant sub-second semantic search & automated matching) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 393.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 400.89 Td (Prescription Safety) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 180.0 400.89 Td (Manual recall of drug interactions and patient allergie) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 360.0 400.89 Td (Automated deterministic safety engine checks cross-alle) Tj ET
-0.97 0.98 0.99 rg
-50.0 372.89 495.0 21 re f
-0.85 0.88 0.92 RG 0.5 w
-50.0 372.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 379.89 Td (Data Sovereignty) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 180.0 379.89 Td (Commercial cloud AI APIs send PHI over public networks) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 360.0 379.89 Td (100% On-Premises data residency; zero outbound transmis) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 351.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 358.89 Td (Operating Cost) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 180.0 358.89 Td (Recurring monthly per-token API charges \($0.03-$0.10/ca) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 360.0 358.89 Td (Fixed capital cost; zero ongoing token or subscription ) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 327.89 Td (3. Core Business Services) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 320.89 m 190.0 320.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 320.89 m 545.28 320.89 l S
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 304.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 304.89 Td (Service 1: Licensed SNOMED CT Terminology Service ? High-speed semantic search across) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 292.39 Td (Singapore & International editions, standardizing disease classification for MOH NEHR) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 279.89 Td (submissions and insurance claims.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 263.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 263.39 Td (Service 2: Singapore Drug Dictionary \(SDD\) Service ? Instantly resolves HSA-registered) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 250.89 Td (pharmaceutical brands and active ingredients, ensuring accurate electronic ordering and) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 238.39 Td (pharmacy dispensing.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 221.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 221.89 Td (Service 3: AI Differential Diagnosis Support ? Synthesizes free-text consultation notes,) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 209.39 Td (vital signs, and patient history into ranked differential diagnoses with supporting) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 196.89 Td (evidence and missing examination alerts.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 180.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 180.39 Td (Service 4: AI Medication Candidate Recommendation ? Suggests guideline-aligned) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 167.89 Td (therapeutics for doctor-confirmed diagnoses, automatically matching items against the) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 155.39 Td (authorized Singapore Drug Dictionary.) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 124.88999999999999 Td (4. Clinical Safety & Regulatory Compliance) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 117.88999999999999 m 190.0 117.88999999999999 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 117.88999999999999 m 545.28 117.88999999999999 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 101.88999999999999 Td (Safety is an architectural guarantee rather than an afterthought. The platform decouples) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 88.38999999999999 Td (generative reasoning from safety-critical rules:) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 40 m 545.28 40 l S
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
-BT /F1 8 Tf 485.28 28 Td (Page 2 of 3) Tj ET
-endstream
+<<
+/Count 3 /Kids [ 4 0 R 5 0 R 6 0 R ] /Type /Pages
+>>
 endobj
 10 0 obj
-<< /Length 2250 >>
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1119
+>>
 stream
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Executive Business Whitepaper) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 801.89 m 545.28 801.89 l S
-0.94 0.97 1.0 rg
-50.0 721.39 495.28 65.5 re f
-0.1 0.35 0.65 RG 3 w
-50.0 786.89 m 50.0 721.39 l S
-0.1 0.35 0.65 rg
-BT /F1 9.5 Tf 64.0 770.89 Td ([IMPORTANT] Independent Deterministic Safety Engine) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 757.89 Td (Drug-drug interactions, allergy cross-reactivity \(e.g., Penicillin to Augmentin\), and) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 745.39 Td (contraindications \(pregnancy, renal impairment\) are evaluated by pure, deterministic) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 732.89 Td (rule engines in code ? NEVER by probabilistic generative AI models.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 709.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 709.39 Td (Singapore PDPA Compliance ? A dedicated Privacy Boundary automatically detects and redacts) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 696.89 Td (Singapore NRIC/FIN numbers, contact numbers, emails, and patient names before clinical) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 684.39 Td (narrative reaches the AI model.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 667.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 667.89 Td (Auditability & Governance ? Every inference request, prompt version, model identifier, and) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 655.39 Td (clinician interaction is recorded in an immutable audit log, providing complete) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 642.89 Td (medicolegal traceability.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 626.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 626.39 Td (HSA AI-MD Alignment ? Designed in conformance with Health Sciences Authority guidelines) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 613.89 Td (for Artificial Intelligence-based Medical Devices, emphasizing clinician oversight,) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 601.39 Td (transparent reasoning, and missing-data flags.) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 40 m 545.28 40 l S
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
-BT /F1 8 Tf 485.28 28 Td (Page 3 of 3) Tj ET
-endstream
+Gatm:>Bed\&:XAWR)cQ]E@ok,mClG:&paVQZ'4TC?Q::U?!jN`S&>7%NdS`9$J@QfS7"(7B"n*'e&VY#r/gb:8cZR.nEH)9Tb+;U=Ln[P%=!Ht9-`grDLcR9h/Q[)GA,l?9USpGoh4?7KTfb#SJ]<,"E[7lbo,^l[qp]7h3F;WHP<W"VGit(r"4RBDI5Bc/fQe$%;+O#B9$E3'VD9!K7'e0!i4/aKHS*Y-kOhfUTuoOrpn)'_=YQr0DGHfmeK%o^RbYd@^PXm5!\TNJr_DEf,0l8`,HiuQQUMXJm&M7C"+9.`\S^VYtS^C`\<ju3(o/Z0#LS!.4jJ_>\/2$'Fgm+1t5NE&4Js?DAflm]r$H?B_i@r2&]gi<A)SU-<"S),*E,H\F?Qd2Tn`1jj?P`+t@RE+>3.p\di^P^`o+:R."E&k2I4]k4/OVdL!g73T:1t0c>*cHn*M(57<*H3\bWh`Q4,Kf;?c46$HOY\;ipNVRTH/$"74%2I*239'E$^eG^AhC3#9%*;W;+B_oL:mmZHi5"S-:Xsc^?o.UcK&(3r"0Ue!hlY)5==D+X33[f:E/D>qi_k_/C%S8m@>fd=:J[^jno^UH*0i(?RMb/#j)t;m(YM<n*`oSO6h0*adHoORr,!)9H+O&F=%ofs$,)tHXrBB3I"H59;XC*B@FmX*K.iBKVkIkFNF$/*C1,TDigS_DbE@9<P8ctuOd6cZ5TVW1,"$ar:Dt(%CGlfXG+j=i-@D$s*S5gAijUSFC\J.Sh5SgO$&Y>AJg#RP5od5UE0iId.E3cD`A#rLT6mlF="t0<h.%+`JL]hu'C/FnbBOC<0kHUV\g3V@ZPIef7O_WX!2b0A-b[M"31pbMP@UJ<Ns07F@NGi2af2?.ZE&qdp@?5=biLoeeh:@=5c=ZUtL4dc@c.7W%`^[$6R<j$)^:h8.9QonWaJA7^3dO9.H3[#F_Y]34Xr<nhg\KrQim!,?kbaJ-?a_c#`4J"1b"\2FJ&N%pY/Q1\&g")?.Cao&%0%*4/7,'f+\UjdY53Vcb-Z\9So&Nt8p,i+p'l#p]`Ahl)aGd*ZXShKX&bMi6s6gTGBb[s8X>j^!LY*mU-tp4Wbo,ImLPT^6<g,]#4QD]!r~>endstream
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3126
+>>
+stream
+GauHMgN)%>%Xn(Qi*e"pbZYumFNm!0Z7"4hDm?[KRU,@a9t$im8@F7Ig<nE!r#TtO,5EG'M(=dY885@KB]&kMJ37lBa"r38.FJ#1rV!inSkl[QH!R=@ZVroVmJXTY<H%S:)Y?1*3#iC4!tQBtogX@j*8g>lr>msb^H6E3PV;`LRb%i/d4E8q5']:TgirSXIF"VIY9GG(Gq3Q3VJ2F$hpUjIc$j67+7Wu:G(8#rP!+=L,J2PLp@108K3n%4G'E.Li]S2?^$9W$UVUaqkem139&i<O1("[USBtAL\kJ!cO=I$K,V8(-:J#:.1D3h6nl7<MkUc9Y()5:<@hD;W4*8#:WOs@UP0t<^$S<0_M!M,/lP89Io<)Uu31NrNX<8".=6HiiQrY\>fDh-S9kCa=EO9\@p"!naLm5b9c@sh9;j>JBW3R+G;CnRs(QHLL$"5#^#lTcabI*Xu`,/ruPprN_X59(d/@#A8A[ogG``X"TFHqZcZ<4F79=\/JDK2ec^:-9[MAE:R\.oqa;\@2D-"6n'pm#)88siN<CP)5ni.>,_-rGefmUWT@r[c%mWA[-a(*OEM<om&mRO"nlffOtU'CG-SM*H;tPe:?:4IO:*=MI8/M:G4/SN?k)'Uk1=>En)5:o[ueBUC#Gj^Ldt8J7oZJMiM]Q8!Q=ZTQk<L"%)c$+7qN@(([2)?]OW/'FA"%[cFQ0(LbIb$5Kc"!$17JFr)Hm*N;s2I.ND>G7&CE4*j=/I^G:K5OYV`J?I*V+0[K7XLq'31dS]pJqaUITos,?UUc2me$G:m.cCV1ZRa)Vf\/i$TaF__[Ed6H@L6_FT&Y]UW?B%WC/<`b>JI!jrm&bcsItu*<p?uairbn5`4s&(b!!Ni!gS5Cd.-,*A86<W>G2sTZ,!NbNXqTd0M-<i,e)d,G-]R@GB-6%_BOYFj)f"C]<XkCJM5b10N'`ORXFR9Iq>up*rXOc\5>rB*C9.JH'rr`kZ:$ArXdF+Rq\Fj70me-F5r991LHu1j*?[JVuUf9!-emG+$N)P&T?C2M+s_$kRnfLW?VsakoX`'tb+oH-#IZ:>pAl[no<1N&H(b:)Tr<R_umr/Sn>+5<2Wa*>07h\O'Ui:0Y!pOY=jDAL^]V:=]Yp[EYT1%<>HWU<82tVmao_]\q:o&d':m(8o=Znt1J20)dCJNlRJj.IIU\@q/?./"=^EX\tm\1QHMg5rZfsb^`TO.;S6=M6em'!apR925YU,T)Zb/T:a!9eV?;2qji;.95+jJKVj+A@+9B$>A"fFr)"9&K4-_.GYbZb]UTn12Z)d7GgY>NEAq71O72K7pb8^oIN(0=*d*75NIZ=Wqea;j)8O_>JbFMIV?OkNJZSSp9M,=NX-M,]puDli>tggmFrfQ@E:@^,Ke;;DJi^jKTF#V!j.ps3i7]!!DY;X"+^Fq'>Mt\iVqDXRmqp]@ch1Xg?@TKN337!^rT=#7,Yid-9$N4Iaf%s'Fkh=Dgg?FVkL?*MRG`VQO`%m?bR?U,<amtdfos8Sp\TX^13beC*,7&_F-CO*#^K_UAW4.L^reUaO#,9kAsf+E>@t=uXKCQ%9B9Eg8`Uhb05FIAg^S-7;n"P*'PEV1iTQ_8['b7oie0;;L$061CI+B*X%uf.j-<g"7hi7T1_tB52RIr[i\H+(DUoNoIPDJ)lg.hj_UThfjK^,rNT/;B%h0g>Btn(UnOA)^E=^jAI:;mAW39hCpK7T/>[2HafmR;BIalU_(Y,EZZTD*j8jnmZ@336k;6I9\3SaehFoU;R\lpQ7CdN-#`2\(-c0f(ai5KT*A@_aYKNi=T)ASX1,uUh;/6K=K],prfgtX)]X.M]$L<]o"Qlu\r]KGDlJs.iH-k&hf\L=%eE7rF:cl\,+b-bV/i6U1h`6?+F-Pd*fWkH%]dG,o-bf"^P\(:)iS9ro"8(]^b)@pOl,kTatR>Ge\<fO2:^2W'dJF,0SRi;AQLi&Q"TC?Y6GMQ>>n.E-5;oPjl0_LBK>DYT(h6BRNOX!jRgJ+s;T]u#X6EEr:db4U['?-Nb^HCQ2>/MHRXm'[UZ4>6R8tJ_DL(p=(A!'4GHVsYNe*AmfWj4=l.D_49`dVeGG58EC$>urD$t(q^U=e_KrbM;u8jm6^Zb.!6?(t,H!hDZ+&K1J/U1K^e'K&@jhZ"NMGL41`T)0I^p%@(qT'X4H,QA4nE#P]t[JJ-:V:_XQo+FUu3GpIa,,EK!TMZbSM=8;dltD6ImVfb<]s/:-p*fY3Et-FW>FQX.]8d'rKH!`*TcnJ#[[I;7[T1QKX*oV$!gELr(#PH[E;F;ahs+2QGIrYaobqMT?,IJjk4r%rrnQ!cE:#]9[d/u2BE$iZOU",9^>@'lE"F4,1#A68#o]%:.e6d][9.in*94Z#KA-ha38-00KoX1]Ze/[Xe5"to6g(j9(f5oShnHg3Bg^`=3diuYg>lMhRgkPJI_,7#Jt;D('/WfR?lV%$C1gdilAO7Q!,k.hbNdADf]GUE&@7cAZ!caN0f!7;H'$0rA6r7e1CcU\32,s(P:L6/<<BQ#9qiFi<fG6TRI6Z!H3=0p)r6#<r9S@"h(-L#FGOD"&tWI%9Fj4q=E$(9'Rb[GP(o)ImA0U`eqiu$&$W1'l.cW5Ck7#YF5R)8p1*-<&TSeN:.6A$,$-m62:ErE0PfaNfhH.8oQ(+)0,XXu@gDJ4n/odJ*/4J\@>uL)F=#jZ-Z+n_H+HJa5qV5U>MHh[Rm24d<pkKUA\fAgLeTbi^W.01HS=>!T'Vs2(gQXNYjMtF.LHZBG1LT^@q1F$6OJK,hgh76^P6GcoaO4VFu:7UI(0->NScV558,p%UbUAc0d@%%SI$2Y]kQ:EGej$@RMI2%O8`+/a-rWVGdNin.g'_7\_r%<m?FnT9e"ibLAb,[4Ojs8p_GI+bd%d/o#CgM=;UZ9J[/CX*!k1OXP[a^OXV]%`q%O2]O:meVdBn$S1]\D0Hd8p<LdAOdFrP;Y=h4s2gB':)h3bB+'m+RdP0UWjs7Q2qnUd+a;p5L@/%7(q.:"PO!eYlC=cL&F$'E6D\j8E[6MAbs*\p0Hp4#>T$eRh]XkVcRN0W`YPtc)(nXRK-Y#:9E:N2flMU.!I(XHma"=qQa9=pNf"s'8k9usL^L56G[.f&nWVbr~>endstream
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1561
+>>
+stream
+GauHJ?#S^l'Re<2\5*jO!lm4ull-<X99g'S=I#n`%hj:DZa.X<fOi+&5JCdM5Th58>,bL79P3G4gj@>WBC(_>+3/c+-./WDY&>;#>Y8&XGa:kA*DM`uDcb55ARJFR3*$a4&L&o[&EgQ]:J"-\XeW%;>]P5*O6,"h*&qK>NY;U\=i8#_m=8/24jTjB+f%Y36'#j$RiVGq9:iTrCFZ`eEE-l`_.:\Q;"Bm7O#ia`pc6[AohI9JE/GI#oDB^<n;Q.r5K%j1aZ?\<o$nJEYGPi;-f<\A,&1SMQqGu)iG$ajUm\\c1"gM@MD]1PW*/FDpg#a^2=%9ef8W5@RaVI@X=@4J`m^sD'YL<599)!:76"q&-&'PRV=dlh.]G<r%oO\l",gn+p[c#YqjumX_h\@I35m#k`Q)N.U$I%[etIDHJC#Vr$>G$gijAQ,AXe*/C^g'H!Q'9&4GL)f*b"!lL1GQ0f#9((X=8UNnF-F^HN\S,i;J(I^N`j-UNuD8c"+gQ*$;J[#mZ,0oMD=VK-7$H(\3"ROk2fD5'S57g?7ScM4^_)+(Y-h!KImf)c=_g:TPtSb'0)MWicT"%MN&tm%/OYb,miZ3)hF9Lma]h7VuJ++<d@@+BE*=<jGRra:+T-/J5Ki4I=FgXq*-1.ulY%jb=)<2gG0!ol8tq<j\se)*RG%djj40Ue[W3+sCiSWf]<%b;_Yqi+P=QFh0D<Wd8:'U?DYRF?#^dM<.0C?,64Or-a![nE'&&k4lQNQ;(p<0XUD9'uke6=^$ptnF-i2Ds6D@@mHt;Zl8ZnLJ@Efq2#!TUmjK)qsr;M!ma&R_s8ajIF5de<_f`=0lZbMP/.Vh-\FX*7eWFfW;#A++W:3:g@b$n,C5hr.e'p7/4QhVm'po9,AI?RNB4lG6A[9eGP%kLA]EY\XDOu#)+,fqLAS?WNNa,CR/VOslp0R(Lu*M>)dhLHjs8^PR4F(rM\/6."2&0=W&phnE/a3Ra\$72RBL]5l+s/A;_Rj0Y-A$LGa-Q$"W`0g_t\]_Iahu(0j6O1a_eHI9"k]2'XP#i\`2hi<#>81j`T&(*E-ho_K:ctm<9k>cqYlfJua<4)ed%QWFOlKGf,0N-(r&YmSCO-/6aBV^1B?2.]V8D\J6!\"@l8rGc"B>U+1BtoO/mlh\Z"\=J+CRs!?6g+%MuRE'L$n+`aPVlQXIb?=URI*r=@;U1T(mMe5\U3@jTD9SI)OL4/&&<LUV6"l=s<22'=IC$:+knHRhfd"hS^HAB<mX)ZY&BrD)GD[!T"3o@#A/UeOeO1\JI@GKRb%BuomYZs$#nUBnN/k'(+T0^I87]V.&(]8<'LISlCfF%=rW9(kkL2]q<s!$Mo)Uhd^P4)7YgR=SfmJ-\Njh1rE29(?t(6,jbBQ89tplcb"*>gW4dT/_R<h,rh&\tmGc5#)RAAa.3:VVQ#)\+qO`joOE_GPa-1#G$a`NU0G8+B"YRd/[X?/<j``Jku%2m^VJT$0ZJB[4Tf@Bl=sPL8s1:+5/7fmG]th!G2]Y5)`pSt6X<)<'%sCtl7j_dNq=EuIraU>ZtmFS-G>lMjr~>endstream
 endobj
 xref
-0 11
+0 13
 0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000133 00000 n 
-0000000208 00000 n 
-0000000278 00000 n 
-0000000420 00000 n 
-0000000562 00000 n 
-0000000705 00000 n 
-0000002438 00000 n 
-0000009804 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000525 00000 n 
+0000000729 00000 n 
+0000000933 00000 n 
+0000001001 00000 n 
+0000001281 00000 n 
+0000001352 00000 n 
+0000002563 00000 n 
+0000005781 00000 n 
 trailer
-<< /Size 11 /Root 1 0 R >>
+<<
+/ID 
+[<72635f741c865363a8f3c934942b57fa><72635f741c865363a8f3c934942b57fa>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 13
+>>
 startxref
-12107
+7434
 %%EOF

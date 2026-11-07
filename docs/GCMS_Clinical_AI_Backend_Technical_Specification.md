@@ -110,3 +110,4 @@ FastAPI Backend-for-Frontend (BFF)
    - Strips administrative identifiers (patient name, NRIC, full address, phone) leaving only minimum-necessary clinical findings.
 3. **Deterministic Safety Validation (`app/clinical_safety/`)**:
    - Independent Python algorithms verify contraindications and interactions. The LLM is never trusted as the sole safety checker.
+

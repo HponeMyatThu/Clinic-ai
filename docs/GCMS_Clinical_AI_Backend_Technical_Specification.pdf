@@ -1,389 +1,112 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 6 0 R 7 0 R] /Count 3 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 6 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
 endobj
 8 0 obj
-<< /Length 1690 >>
-stream
-0.10 0.21 0.36 rg
-50 771.89 495.28 6 re f
-0.18 0.49 0.73 rg
-BT /F1 11 Tf 50 731.89 Td (TECHNICAL ENGINEERING SPECIFICATION) Tj ET
-0.08 0.12 0.20 rg
-BT /F1 22 Tf 50 691.89 Td (GCMS Clinical AI Backend Architecture) Tj ET
-0.35 0.40 0.48 rg
-BT /F2 12 Tf 50 663.89 Td (Technical REST API & System Architecture Specification) Tj ET
-0.85 0.88 0.92 RG 1.5 w
-50.0 613.89 m 545.28 613.89 l S
-0.96 0.97 0.99 rg
-50 378.89 495.28 190 re f
-0.80 0.85 0.90 RG 1 w
-50 378.89 495.28 190 re S
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 540.89 Td (System Name:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 540.89 Td (GCMS Clinical AI Consultation Backend) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 516.89 Td (Document Type:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 516.89 Td (Technical Architecture & REST API Specification) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 492.89 Td (Edition:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 492.89 Td (FastAPI + Ollama Production Reference v1.2) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 468.89 Td (Engineering Leads:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 468.89 Td (Senior AI Backend Engineer & Healthcare Architect) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 444.89 Td (Technology Stack:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 444.89 Td (Python 3.11+, FastAPI, SQLAlchemy 2.0, PostgreSQL 16, Ollama) Tj ET
-0.20 0.25 0.32 rg
-BT /F1 9.5 Tf 70 420.89 Td (Publication Date:) Tj ET
-0.10 0.15 0.20 rg
-BT /F2 9.5 Tf 220 420.89 Td (November 2026) Tj ET
-0.50 0.55 0.60 rg
-BT /F2 8.5 Tf 50 95 Td (CONFIDENTIAL ? For Authorized Healthcare, Clinical & Engineering Stakeholders Only) Tj ET
-BT /F2 8.5 Tf 50 81 Td (Complies with Singapore MOH, HSA, and PDPA Healthcare Guidelines) Tj ET
-endstream
+<<
+/Author (\(anonymous\)) /CreationDate (D:20261108014256+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261108014256+06'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
 endobj
 9 0 obj
-<< /Length 6326 >>
-stream
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Technical Engineering Specification) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 801.89 m 545.28 801.89 l S
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 772.89 Td (1. System Architecture Overview) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 765.89 m 190.0 765.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 765.89 m 545.28 765.89 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 749.89 Td (The GCMS Clinical AI Backend is built as an asynchronous Backend-for-Frontend \(BFF\) leveraging) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 736.39 Td (FastAPI and SQLAlchemy 2.0. It acts as a secure mediation layer between the clinician's React) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 722.89 Td (frontend, the existing Clinic Management System \(CMS\), the local Ollama AI inference runtime,) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 709.39 Td (and high-performance PostgreSQL terminology databases.) Tj ET
-0.94 0.97 1.0 rg
-50.0 600.39 495.28 90.5 re f
-0.1 0.35 0.65 RG 3 w
-50.0 690.89 m 50.0 600.39 l S
-0.1 0.35 0.65 rg
-BT /F1 9.5 Tf 64.0 674.89 Td ([IMPORTANT] Three-Tier Architectural Separation) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 661.89 Td (Layer 1 \(AI Reasoning\): Ollama synthesizes unstructured consultation context into) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 649.39 Td (structured candidate suggestions. Layer 2 \(Terminology Grounding\): PostgreSQL FTS &) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 636.89 Td (Trigram engines verify SNOMED CT and SDD codes. Layer 3 \(Deterministic Safety\):) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 624.39 Td (Independent deterministic Python rules verify allergies, interactions, and) Tj ET
-0.18 0.20 0.25 rg
-BT /F2 8.5 Tf 64.0 611.89 Td (contraindications.) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 574.39 Td (2. REST API Specification \(The 4 Core Services\)) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 567.39 m 190.0 567.39 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 567.39 m 545.28 567.39 l S
-0.12 0.22 0.36 rg
-50.0 530.39 495.0 21 re f
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 55.0 537.39 Td (Endpoint Route) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 200.0 537.39 Td (Method) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 250.0 537.39 Td (Request Payload) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 390.0 537.39 Td (Response & Responsibilities) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 509.39 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 516.39 Td (/api/v1/terminology/snomed/search) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 200.0 516.39 Td (GET) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 250.0 516.39 Td (q={term}&page=1&page_size=20) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 390.0 516.39 Td (Full-text \(tsvector\) + Trigram \(pg_trgm\) search on SNOM) Tj ET
-0.97 0.98 0.99 rg
-50.0 488.39 495.0 21 re f
-0.85 0.88 0.92 RG 0.5 w
-50.0 488.39 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 495.39 Td (/api/v1/terminology/sdd/search) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 200.0 495.39 Td (GET) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 250.0 495.39 Td (q={term}&page=1&page_size=20) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 390.0 495.39 Td (Multi-field search on brand, generic, strength, HSA reg) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 467.39 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 474.39 Td (/api/v1/ai/diagnoses/suggest) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 200.0 474.39 Td (POST) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 250.0 474.39 Td ({consultation_context, max_suggestions}) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 390.0 474.39 Td (Differential diagnoses with supporting factors & SNOMED) Tj ET
-0.97 0.98 0.99 rg
-50.0 446.39 495.0 21 re f
-0.85 0.88 0.92 RG 0.5 w
-50.0 446.39 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 453.39 Td (/api/v1/ai/medications/suggest) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 200.0 453.39 Td (POST) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 250.0 453.39 Td ({selected_diagnosis, consultation_context}) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 390.0 453.39 Td (Guideline therapeutics grounded in SDD with independent) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 425.39 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 432.39 Td (/api/v1/health) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 200.0 432.39 Td (GET) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 250.0 432.39 Td (None) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 390.0 432.39 Td (Service readiness probe testing PostgreSQL and Ollama c) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 401.39 Td (3. Local Ollama AI Runtime Integration) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 394.39 m 190.0 394.39 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 394.39 m 545.28 394.39 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 378.39 Td (All generative AI inference runs on locally hosted instances via Ollama. The integration layer) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 364.89 Td (features:) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 346.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 346.39 Td (Connection Pooling ? Persistent httpx.AsyncClient with keepalive connections and) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 333.89 Td (configurable timeouts \(default 120s\).) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 317.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 317.39 Td (Resilience & Retries ? Tenacity exponential backoff retries on transient connection) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 304.89 Td (dropouts.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 288.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 288.39 Td (Strict JSON Mode ? Forces Ollama to emit structured JSON complying with Pydantic schemas,) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 275.89 Td (eliminating parsing failures.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 259.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 259.39 Td (Zero Hallucinations ? The AI system prompts explicitly forbid inventing SNOMED CT or SDD) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 246.89 Td (codes. Terminology mapping is exclusively performed by the database ground-truth engine.) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 216.39 Td (4. Database Architecture & PostgreSQL Schemas) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 209.39 m 190.0 209.39 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 209.39 m 545.28 209.39 l S
-0.85 0.88 0.92 RG 0.5 w
-50.0 40 m 545.28 40 l S
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
-BT /F1 8 Tf 485.28 28 Td (Page 2 of 3) Tj ET
-endstream
+<<
+/Count 3 /Kids [ 4 0 R 5 0 R 6 0 R ] /Type /Pages
+>>
 endobj
 10 0 obj
-<< /Length 5897 >>
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1094
+>>
 stream
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 806.89 Td (GCMS Clinical AI Platform | Technical Engineering Specification) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 801.89 m 545.28 801.89 l S
-0.12 0.22 0.36 rg
-50.0 765.89 495.0 21 re f
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 55.0 772.89 Td (Table Name) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 165.0 772.89 Td (Primary Key) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 270.0 772.89 Td (Indexed Search Strategy) Tj ET
-1.0 1.0 1.0 rg
-BT /F1 8.5 Tf 410.0 772.89 Td (Business Entity) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 744.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 751.89 Td (snomed_concepts) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 165.0 751.89 Td (concept_id \(String 20\)) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 270.0 751.89 Td (B-Tree on active status) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 410.0 751.89 Td (Core SNOMED CT concept registry) Tj ET
-0.97 0.98 0.99 rg
-50.0 723.89 495.0 21 re f
-0.85 0.88 0.92 RG 0.5 w
-50.0 723.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 730.89 Td (snomed_descriptions) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 165.0 730.89 Td (description_id \(String 20\)) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 270.0 730.89 Td (GIN on search_vector, pg_trgm on term) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 410.0 730.89 Td (FSN, preferred terms, and clinical synonyms) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 702.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 709.89 Td (sdd_medications) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 165.0 709.89 Td (medication_id \(String 50\)) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 270.0 709.89 Td (GIN tsvector, pg_trgm on generic/brand) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 410.0 709.89 Td (HSA-registered Singapore medication catalogue) Tj ET
-0.97 0.98 0.99 rg
-50.0 681.89 495.0 21 re f
-0.85 0.88 0.92 RG 0.5 w
-50.0 681.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 688.89 Td (sdd_active_ingredients) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 165.0 688.89 Td (id \(UUID\)) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 270.0 688.89 Td (pg_trgm on ingredient_name) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 410.0 688.89 Td (Chemical active ingredients and strengths) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 660.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 667.89 Td (audit_events) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 165.0 667.89 Td (id \(UUID\)) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 270.0 667.89 Td (B-Tree on request_id, event_type, created_at) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 410.0 667.89 Td (Immutable audit records of clinical AI operations) Tj ET
-0.97 0.98 0.99 rg
-50.0 639.89 495.0 21 re f
-0.85 0.88 0.92 RG 0.5 w
-50.0 639.89 495.0 21 re S
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 55.0 646.89 Td (ai_request_logs) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 165.0 646.89 Td (id \(UUID\)) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 270.0 646.89 Td (B-Tree on request_id, created_at) Tj ET
-0.18 0.22 0.28 rg
-BT /F2 8.0 Tf 410.0 646.89 Td (Telemetry \(tokens, latency, prompt versions\)) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 615.89 Td (5. Privacy Boundary & PII Scrubbing Engine) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 608.89 m 190.0 608.89 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 608.89 m 545.28 608.89 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 592.89 Td (To enforce Section 5 of the architecture specification, all free-text notes pass through the) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 579.39 Td (PIIFilter before prompt construction:) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 560.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 560.89 Td (Singapore NRIC / FIN ? Regex pattern matches and redacts national identifiers) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 548.39 Td ([STFGM]\\d{7}[A-Z] -> [NRIC_REDACTED].) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 531.89 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 531.89 Td (Contact Information ? Singapore phone numbers \(+65 6/8/9xxx xxxx\) and emails are redacted.) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 515.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 515.39 Td (Context Minimization ? ContextMinimizer strips patient identity fields \(names, addresses,) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 502.89 Td (MRNs\) prior to processing.) Tj ET
-0.10 0.25 0.45 rg
-BT /F1 15 Tf 50.0 472.39 Td (6. Independent Clinical Safety Engine) Tj ET
-0.18 0.49 0.73 RG 1.5 w
-50.0 465.39 m 190.0 465.39 l S
-0.85 0.88 0.92 RG 0.5 w
-190.0 465.39 m 545.28 465.39 l S
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 449.39 Td (Medication candidates generated by Ollama are cross-checked against four independent safety) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 50.0 435.89 Td (algorithms:) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 417.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 417.39 Td (Allergy Cross-Reactivity ? Detects documented drug allergies and class cross-sensitivities) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 404.89 Td (\(Penicillins, Cephalosporins, NSAIDs, Sulfas\).) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 388.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 388.39 Td (High-Risk Drug Interactions ? Evaluates concurrent medications for major clinical) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 375.89 Td (interactions \(e.g., Warfarin + NSAIDs, Simvastatin + Macrolides\).) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 359.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 359.39 Td (Contraindication Rules ? Evaluates pregnancy teratogens \(Category X/D\) and renal clearance) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 346.89 Td (thresholds \(eGFR < 30 mL/min for Metformin\).) Tj ET
-0.18 0.49 0.73 rg
-BT /F1 9 Tf 58.0 330.39 Td (*) Tj ET
-0.20 0.22 0.26 rg
-BT /F2 9.0 Tf 72.0 330.39 Td (Duplicate Therapy ? Flags simultaneous prescriptions sharing active chemical substances.) Tj ET
-0.85 0.88 0.92 RG 0.5 w
-50.0 40 m 545.28 40 l S
-0.50 0.55 0.62 rg
-BT /F2 8 Tf 50.0 28 Td (CONFIDENTIAL ? CLINICAL AI GOVERNANCE SYSTEM) Tj ET
-BT /F1 8 Tf 485.28 28 Td (Page 3 of 3) Tj ET
-endstream
+Gatm:?!#c?&:O;VR&<*@%B:^IZJE!O&(Wm[#dN,3?Aq_o;h%Wsd)3WUOmN8VR]q-h*+EJ)c.ojN2)5=S5IC5]Ee(J%^<A!%#13c+-QJigQq#X[MfpVI%5+Qso6_'m=B@/Q*57p=AP)ZVPM[oXD<ab$KMh#,!Q:,U[3[BMXeOL<"*XoWY)rE'K+QkQE%HFbF%gCYj-U+uG'o$?a8CKp>F5EHjlA[k@m1;LD=]L8%&3"]ms-T.@:Jj"?p:,6KD@N\Ms33gTfEH4k9ghs61i90rYgW4qFD*lp(E8<6=JY7EU3nPq=pQn``ZK@8Y!UFJ?q62WJXmsl"$"/.]FMs3XUVH*gjWs_F13&M=XtM_L-tP@CD+,DS$rKbe[[lk4`%r<)KKQ$C9-pK$bbZ_F<./$]8,iF^1hU!ImD2FIj7Z<j&'&'%cYJ>U]sI<KaL=)me`FE8et]E4QdAlUq?``,c(Q3Bdm5qO`Hc32$iMkCWDCjL\*)+,Jgr`V2LW#ZDu.Pu7Y<F5bUW["?gUbAR6c2/L@?)u[!BVZBNl<s^rcHAt_S#U+SqC6c\!cILO!Zr,53k+_`"RZJR+PaRaG*W`hgm?R%XAPkU$F^*QpK83khE5`(Cr'T]UiuQJ?3RU"[m32QWN7`)4R)N'bdY?(eR:U@Z_a9^!%nVu`;QZ0a7A?q\N\Q(2hTs!E=JpjN3\Ano-KY1F[==54%PG?XSut\63n#ArBl#`[K<s7tqII*[W'dC'dmR2'UQA,b8?/]_nUlh>0`M62M,^e6U8S[nEF,5(^4Vck;n^$<4+u&.6g,4>K^e89P[WkQ';0N'YUHPuXVI:Ub$h3?+\YL=<?L6iIK1sXLRYC2Xet3o+W'qTXN\jXQ/<u!b\$DVdD"T>h6FD*3r?A-k"V=&,La2I%39<ZT#L-"BkR0a@V_<T"^iFmQN.uBq:q'G_@b27_`$Ci_SOg4oK+!%[Pfa")\0;7k&`L$Zo6'2AELEkEV90+F2Ym2,DY$/0'\2dQLA+q%i5ZZk%7p(j(LK)8RR9chp"5U.u%=1#LMol0conBHG$non:p6I*)um[R_U>p5c<pBD:V[2psgsA;0&o?"U3ghiW~>endstream
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2767
+>>
+stream
+Gb!#]>BAfF'n5n\3):4#Z"72A,rH2A^+<JH0VD$<&lPl%C..OS_PgZ[PKj+$S8MVL"#^h]<6@(NWn"#nmH\hW!BU2tl@2#&puK91[/l!gh?jZqZba8-/+;QbM,E^-lHni8>/0P"OTJm'L2OM,"#SI\H<gb4X)%J%/nEoISn?I\*:RE"g]YNWLRYk;\moD-hf;"m(hEW7$0mF2UG-tdf`S#,:;QfB]Utu*TCMB,(gYa=,"<+=.P[H2^PfjTdrMN+@b?+2Pf*Q'F%SS9-&f=1E&5.r__>O+o19(;&UYf%(RbKB3%T+d#p:3YK)]a&J"<E-Re(:?q'sY7YAm9-JjnkOp%@;Y,)XO)O<l&T'.sL<&^goLAtAb\gHjo(BtOUJdkqsc#@DGh"uu:P3FWm\,$::!7(+q),o,;c9gGAe^64bDjA-b-'M2_58oUZadmqE3A6pZao=Z@T$#*'H;0cQs6/<?T"^.'^r?kH1@Ns(4Oql5Ti`!qh7'N&M8M+>p_Y*_ZAuKuKjP+Ck7@6s%WobR?(:,9GdVoQp&S+Hmjk=%m3jrX&]fs$[dB(@&Y&p`QRbKV=gVnU)f`VWX-@4#+pY]:>Ts[ocS`o@?_Y4Da\oP1R!m\</BQbj6+`bdJBJr2t6sa/#@f$=`/?K+t"X-M>kb"W^l"&oc`nnJG>A'1lHOS`\Ji;>):,aFshV;lJPc@^[$""AQfc"H'=/f99@)!f]d(*/41!mPr70Ell'1BatoIlJN&]j0TcMgNuj9ZW*Y3oZtI[]ag&d@cPM5a!r3"ROG2^&MFHBeQX_iSoLR;8J*ed*sl]@TBc9pXp4<f#-G#-PX"HiPg0@7F_!$!nMa$EjtED.,W"gg+4&cr7`L?XBI#!NgTt<HDAd/noksM0pE-A4=I<Z5P"ih;HP>TF[X\R;Tt^[ES3?@7[,KAg*rI9PTQ2fN631^mFc9#X^1k;Wtd2S%mmr?h_EPG&njioM*/(LU[CA6KCQ#\Qp4/J_$/52ZEFH[Ui!uRRD"Q(%uFSl6s3A5?ZCgRu5hDBKs7jZ&[S>n)3e=G]0[-ao\FEZ`CVA1,dE:e7Yi1WY.6-N,0?.Gd6Ee.JT,\:1"GOQL2C<7nN<>\lH]\e#6c4+YR<4`TWf1#2:V7CMrB:\$'#=.=^HUWsL>d+L'(\kNT\?cKj2>NjHrBDr2N7];So:YYoo/dpQ7&XGf#k;.e"P,hSo;0jp=0K'n\2p@ko'UNe;ArC=K>G98uC?ZV0,0I>I%-2VsiAkW&g7p"l]=d4M/*diU&JLt$C"ND%4D))l\3QV?:^U-:jfuMnu_lhN@PZ0,=O:AgH0J6Q)pOXbA()%LSOsW6elbh"`Uj61$AQAD'>F:m1n$!la0"Yq)Vn:QDh:I_&8SrrYX?%F]=Q01cGlDBh>e?=on"Zj(G5ec3S'EYbYOa/'<uH,-&c;ZfJMb:(nBZ6c>BDd^]u\(#M/F?u-@ZIR-7"C$ng,83DOh"O#GtUKD8_!o$Iur(Ih\c]2a]&CnFRWX)?Kh.(fai?mpL7=qUM-cWrF(TAF+]_BG<^g%cV+Ma6"WlZK)O1K%5d/emM$VfcH%D)>lT=@!2g\i$lfE8Fh!sZU:\-K)>L36eDRN0k$5Sq0u7BM[(ESE;q!k1S)`#6fqK'],gKI]3;p%X6%>/0mUEM(!+-3`6,=tm>a/;Gos8UlJ)N[hP7MD`+63j?m=$&6rioc-GYkr[7lf96]*"O0rs0&;;%Ta!ftlY?gu,h\1G)G"J:GK*snQL\a4kXV\/%o)VgZ3@f3;Jhd8Y70S6B3"\Z]-LbO(;Z[bNtK?8s87Q**D<_5VJphPR(fnIsSIUcjcXK*g3W%HR`>kMKTFT.UoQuUsp12BK+EB#C-59M8c#ENknm'!Xi_iJ?6)h_dPKh6k!ZLd4_ajMIeqdF<mCL=PsG1d:jTa%3Y;#dq@G^j@AP`9P-NtpJbnbcR+gYUKKD4>\7#-kd,,e5ro=NK($-+'7#e?[1Hki>[]6$@;1.R)C`fYEcQpf+A)QW>Zs6a^N+LK`5rL0_kPJ(p,*IA^2fhtFWm(Am33ZbE2?\#cImIJsT<hJ6e?BlNrc4?+jGJhY("'YZ?Y6>=Y]Y9co$-1We?Pj@+d$XTL!>/Vrc[<T)5H9G)@eS%]qmgNu*_DFu^$H2U_*E\]]F\c_++]lb$cru7MUGe5*h-n7_MMc4W.,Bu@4jZ+2X&76$Km?.R&OoC"!qsMOlhQ(6#_q`h%[B@$_pnMAoKX*Yqq1k\p2Ss<4P6A`W?g?s&")WNL2H3N"*l^H5/Rq,+0h^qbD@P8^SInF"q3p+BOn1rZ/_*MCWloIQ>WKq[-+mMWOq-e+Df8!C1"b0o>qj;YhId0piW&$W*0LMb]u$WU-/NWjF/"c+rMR4YY;M,8Rr%dEjAL9).4N)Zq/[lIR=Z_9f/u'Yp(a9,7jHe.S0L\oDF5Q.K#,b4SP-%M"f`P=Ap(=GjuLL;au_ZW5K"NX@u#d=Ja]6"i-9+M&S9:1WiFup*@+),CX&@=g1M%-BIkqSE!VfZcd7tk_J8#ICQ5i0L2Rkbie1<F@\,Z5&Am>e)4A(c;]C;[;Iubdqh]Y=C,]:)*sg>9\8ih@maVTV)(.c4t$lpA+aP(KTmSX"-_8-I`I<'1A,_a?06DH4d<g071M]!4]gbba#;FGO['mH4=jS(5qXYSbjX-.;?]I$3#Q(a0!E:OBQ/k1A3-2RB;6tq0`-1tNT'8<4<!4kS&sQjB&g^PGh#]*[tWRqFC!Am'sf?tggEI[C1dFeO)XYsb[*NS~>endstream
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1947
+>>
+stream
+GauHLD0+E#&H;*)Z(Ed226pPNoVF>HYX<29#F'>aOC?G_+^Z^ia@S?<D?"tW:-r?XQc*Jk%$l8oqs6MY[sO#63dqM12bX8/"E8[!J71bu"iJo-#VMbd*.9h&Wg,.Vgm4XZT'tVJSA6^G/]E8`"]Lc":<uTf*%=B6FMi#7TUCPn[N*YqQL3rh&2?"X%D&>X2^G<J(?$hqBNWI^Ki`5aj[C`akhQE$_HWIlr"t%3&A4;9]u//g.EC!JbOr[@/Bt1PgQ$X!jYg2l*3_RBR\kXS#WdBn,3<IJ`:h@XQ<?ptI`lMp/nhts>J;PYSnU4X#/bkriIO,;q(ZlL[7cs&/@DZnF[ZP\0&<HV2k!O5Ln:kEP%ogar+JYd8e66:EhOW_67InEga!R<,c+_9@@5@WIk=bp_ubCcMllPEbBUJn&LA9)d,u"SVq^7REh729Nu+m"^l[]bN9BP^-2?q0,fDF^^#?O+\\qLH3R:SA9u;jEFB34e9K?a>kTY[HF>+3p.>,rmJnWd_V""Gj_O@\7`f1Mr@HVKS\AW6OqY5<E#Cf\ZCQf6HRXq+GnOZie41YMm\b%S1G;;9uUVYJlY7$m$.NW?R"cZYkLkW:Tl+VU+T1:^K"e-58_el=/=.h4OILQcm?X$fk!:4k,@IuPJ&('dU3ma'PX;[KD+.keY>YpR6WYH^QpI*#0<&ts-:1,F4PR9]$O@nR]5kp55I).VQ8Fp,liTr4)h[pf)1r8*X+k[qR/&7Jg^I$Zp(='Xu3/ed1_dZ=fNqM]pVORu/mYQn?B_?PuDO,R!b/bDS*g7J=O]nY??gW^[o[[G[UWf&<e-#APPj^%=/)1pdCK2e>^[HC@"N!I?auEMV2j$:ZmmmUToF5+Y7Ft)bon,_<nI+pEMLJ9-NG*RE8dC'C4>(MqkCWlHSBN3Y9^(;=7lrr_c\K<90*$TQRF>Et7SY'?PS@4;8[7`'+$bI-Ra):`.omp*L_5rG6Jn`_i;.;?I([S3^Z"qYOllKl*W$VsZQ.H'n`b?X1,D&5l*"l.8uce*ja.%R25=6JqL]CY_5_PTnS[^MYj&q7noa:\&D"=%9M&>kn[37_WdXZN7$.@A22Z=q;/`G,\'bcN/'%-j3JNMc3JK3KQsl:abNHInVWk%!q-5#NS8u;jY/]?^4u3K53cuhFGfoU/R`(Q#YDrh>ZJ:R]!H58(O(@_M$G'3&I`=+uZOfT:9!KQ'nX/k6?'A5][l,akH5O@qX_Gk-+B&$6bXDHE9JeY4(DNr-8M+l1o`k]=IKrX,%(#&W7^=LS]NSR^DSXoC%Wt<PH4Mf0TP5BD;IF7_jkU,f:Ur+`Y0**TFV1Jg2J#kKn8T/4SR6gaO/%3[s$!l\Islq2Y=fLoehfQ_2($4I\(q@:h+p,<Tao0B:L^;enH(;[DK2,%<*9I$:s<iqW7]2=MUpHt`[UD&H6Yuu2h&TQBq9RJrr)dYi:h\JXLP%)9GSn2"O2#0kNYZ9PEQ[*$MKHK]4nP*T0u=68Z7F]ck0EP2ht@<-'g^^@nM&k,ai-tc=Q4\ncqR"B@>G"0V0)JY,*7<$DK4#.JCtbdWS>F$X&YNZ4lHKfe#cNCo`9frs;JR;7k`)Fea4;-2H]1]:qs-IhH$m0on&BnCWu'$gU$uaMK^K+5Y>QF*GgegSSBSh[i@n1W!*jrB\Ad+;sYVeAeieNoU@9`R-%I>nZ3Z_=O'rnV>@]bR)>^-1rcD]G#4nMc;ngWN,,sXm5'pc,NXm\Y(r_IWXl4Y1EAiD")OP'&#>6>`PJ0c;Z`sG$i[Zc]b(c=k<s/j>hjBiG(DB\)Wop(=#he)H*K0;QX4.bUk=^ijuj\V8BJHoi;h>*4EOq'OTpoZHdj+FdBTW2EFolZ[TAB#l<orq;^T+l?_+O"mt9@V)(1LrB\2NF6?UHHG`$qd-7YM[$flq+C3T@D[CS]@Z%XWC^S_qB>N!qCO7u(~>endstream
 endobj
 xref
-0 11
+0 13
 0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000133 00000 n 
-0000000208 00000 n 
-0000000278 00000 n 
-0000000420 00000 n 
-0000000562 00000 n 
-0000000705 00000 n 
-0000002447 00000 n 
-0000008825 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000525 00000 n 
+0000000729 00000 n 
+0000000933 00000 n 
+0000001001 00000 n 
+0000001281 00000 n 
+0000001352 00000 n 
+0000002538 00000 n 
+0000005397 00000 n 
 trailer
-<< /Size 11 /Root 1 0 R >>
+<<
+/ID 
+[<5248018fd4659e7265f0fef8d8c433f1><5248018fd4659e7265f0fef8d8c433f1>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 13
+>>
 startxref
-14775
+7436
 %%EOF

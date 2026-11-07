@@ -161,3 +161,4 @@ python -m unittest discover tests/unit
 | `Cannot connect to PostgreSQL on localhost:5432` | Docker container stopped | Run `docker compose up -d` |
 | `ModuleNotFoundError: No module named 'sqlalchemy'` | Virtual environment not active | Run `source .venv/bin/activate` |
 | `Ollama unreachable in /health` | Ollama daemon not started | Run `ollama serve` in a terminal |
+
