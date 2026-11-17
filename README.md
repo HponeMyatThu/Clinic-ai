@@ -16,7 +16,7 @@ FastAPI Backend (BFF)
     ├── Privacy Boundary & Context Minimization (PII Filter)
     │
     ├── Terminology Services (API 1 & API 2)
-    │   ├── PostgreSQL SNOMED CT Database (FTS5 + pg_trgm fuzzy matching)
+    │   ├── PostgreSQL SNOMED CT Database (FTS + pg_trgm fuzzy + vector search)
     │   └── PostgreSQL SDD Database (Generic, Brand, Ingredient matching)
     │
     ├── AI Clinical Decision Support (API 3 & API 4)
@@ -27,6 +27,234 @@ FastAPI Backend (BFF)
     ├── CMS Adapter (System-of-record integration)
     └── Audit & Governance Logging (Immutable non-PHI event logs)
 ```
+
+---
+
+## System Requirements & Prerequisites
+
+Before running the project, ensure your host system satisfies the following hardware and software requirements:
+
+### Hardware Requirements
+- **CPU**: Apple Silicon (M1/M2/M3/M4) recommended for Metal GPU acceleration, or x86_64 CPU with AVX2 support.
+- **RAM**: Minimum 16 GB system memory (32 GB recommended for running Ollama 8B models + Docker simultaneously).
+- **Disk Space**: At least 20 GB of free SSD space for Docker container images, PostgreSQL volumes, and Ollama weights (`qwen3:8b` is ~5.2 GB, `nomic-embed-text` is ~274 MB).
+
+### Required Software Components to Install
+1. **Docker Engine & Docker Compose** (v2.20+) — Runs PostgreSQL 16 and Redis 7.
+2. **Ollama** (v0.3.0+) — Native local LLM and embedding inference engine.
+3. **Python 3.11+** (3.11, 3.12, or 3.14) with `pip` and `venv`.
+4. **Git** — Version control.
+5. **cURL / HTTP client** — For health checks and API testing.
+
+---
+
+## Complete Installation Guide
+
+### Step 1: Install System Prerequisites
+
+#### On macOS (Recommended with Homebrew):
+```bash
+# 1. Install Homebrew (if not already installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# 2. Install Git and Python 3.12
+brew install git python@3.12
+
+# 3. Install Ollama
+brew install ollama
+
+# 4. Install Docker Desktop OR Colima (lightweight Docker container runtime)
+# Option A: Docker Desktop
+brew install --cask docker
+
+# Option B: Colima (CLI-only Docker runtime)
+brew install colima docker docker-compose
+colima start --cpu 4 --memory 8 --disk 60
+```
+
+#### On Linux (Ubuntu / Debian):
+```bash
+# 1. Update package lists
+sudo apt update && sudo apt upgrade -y
+
+# 2. Install Python 3.12, venv, Git, and cURL
+sudo apt install -y python3.12 python3.12-venv python3-pip git curl
+
+# 3. Install Docker & Docker Compose
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker $USER
+newgrp docker
+
+# 4. Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+---
+
+### Step 2: Clone Repository & Configure Environment
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/HponeMyatThu/Clinic-ai.git
+cd Clinic-ai
+
+# 2. Create Python virtual environment
+python3 -m venv .venv
+
+# 3. Activate the virtual environment
+# macOS / Linux:
+source .venv/bin/activate
+# Windows (PowerShell):
+# .venv\Scripts\Activate.ps1
+
+# 4. Upgrade pip and install all Python dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+# Alternatively, install development dependencies:
+# pip install -e ".[dev]"
+
+# 5. Create environment configuration (.env)
+cp .env.example .env
+```
+
+---
+
+### Step 3: Start Docker Services (PostgreSQL & Redis)
+
+The project includes a `docker-compose.yml` that provisions PostgreSQL 16 and Redis 7 Alpine containers with volume persistence and health checks.
+
+```bash
+# Start Docker containers in the background
+docker compose up -d
+
+# Verify containers are running and healthy
+docker compose ps
+```
+
+#### Required Docker Images:
+| Image | Role | Default Port | Healthcheck |
+| :--- | :--- | :--- | :--- |
+| `postgres:16-alpine` (or `pgvector/pgvector:pg16`) | Terminology database (`gcms_ai`) with `pg_trgm`, `uuid-ossp`, and `vector` extensions | `5432` | `pg_isready -U gcms -d gcms_ai` |
+| `redis:7-alpine` | Session state, distributed rate limiting, and response caching | `6379` | `redis-cli ping` |
+
+To stop Docker services at any time:
+```bash
+docker compose down
+```
+
+---
+
+### Step 4: Start Ollama & Pull AI Models
+
+Ollama runs locally as a native daemon. Running it natively on macOS provides hardware acceleration via Apple Metal GPU.
+
+```bash
+# 1. Start the Ollama background daemon
+ollama serve
+```
+*(Leave this running in a dedicated terminal or run it as a system daemon).*
+
+In a separate terminal, pull the required generative and embedding models:
+
+```bash
+# 2. Pull the Clinical Reasoning LLM (5.2 GB)
+# Used for differential diagnosis generation, medication recommendations, and query understanding
+ollama pull qwen3:8b
+
+# 3. Pull the Dense Embedding Model (274 MB)
+# Used for 768-dimensional semantic terminology vector search
+ollama pull nomic-embed-text
+
+# 4. Verify installed models
+ollama list
+```
+
+Expected output:
+```
+NAME                    ID              SIZE      MODIFIED
+qwen3:8b                500a1f067a9f    5.2 GB    ...
+nomic-embed-text:latest 0a109f422b47    274 MB    ...
+```
+
+---
+
+### Step 5: Initialize & Seed the Terminology Database
+
+Populate PostgreSQL with 50 common clinical SNOMED CT concepts (219 descriptions) and 40 Singapore Drug Dictionary (SDD) medications (45 active ingredients), including full-text search tsvectors:
+
+```bash
+# Ensure virtual environment is activated
+source .venv/bin/activate
+
+# Run database seed script
+python3 -m scripts.seed_dev_data
+```
+
+Expected output:
+```
+[INFO] Table schema verified.
+[INFO] Seeding SNOMED CT dev seed concepts...
+[INFO] Seeding SDD medications and active ingredients...
+[INFO] Search tsvectors generated successfully.
+[INFO] Seeding complete! Added 50 SNOMED concepts and 40 SDD medications.
+```
+
+---
+
+### Step 6: Start the FastAPI Backend Server
+
+```bash
+# Ensure virtual environment is activated
+source .venv/bin/activate
+
+# Launch Uvicorn ASGI server with hot-reload enabled
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+---
+
+### Step 7: Verify System Health
+
+Run a quick cURL health probe to verify that both the database and Ollama are reachable:
+
+```bash
+curl -s http://localhost:8000/api/v1/health | jq .
+```
+
+Expected response:
+```json
+{
+  "status": "ok",
+  "app_name": "gcms-ai-backend",
+  "version": "1.2.0",
+  "environment": "development",
+  "services": {
+    "database": "healthy",
+    "ollama": "healthy"
+  }
+}
+```
+
+Interactive API documentation:
+- **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+
+---
+
+## Summary of All Components to Install
+
+| Component | Installation Command | Purpose |
+| :--- | :--- | :--- |
+| **Git** | `brew install git` / `apt install git` | Repository version control |
+| **Python 3.12** | `brew install python@3.12` / `apt install python3.12 python3.12-venv` | Backend application runtime |
+| **Docker Desktop / Colima** | `brew install --cask docker` / `apt install docker.io` | Container runtime for PostgreSQL & Redis |
+| **PostgreSQL 16 Image** | Pulled automatically via `docker compose up -d` | Terminology relational & vector database |
+| **Redis 7 Image** | Pulled automatically via `docker compose up -d` | In-memory cache & rate limiter |
+| **Ollama Daemon** | `brew install ollama` / `curl -fsSL https://ollama.com/install.sh \| sh` | Local AI inference engine |
+| **Ollama Model `qwen3:8b`** | `ollama pull qwen3:8b` | Clinical LLM reasoning & query entity parsing |
+| **Ollama Model `nomic-embed-text`** | `ollama pull nomic-embed-text` | 768-dim dense semantic vector embeddings |
+| **Python Packages** | `pip install -r requirements.txt` | FastAPI, SQLAlchemy, Pydantic, ReportLab, etc. |
 
 ---
 
@@ -53,86 +281,16 @@ FastAPI Backend (BFF)
 
 ---
 
-## Technology Stack
-
-- **Framework**: Python 3.11+, FastAPI, Pydantic v2
-- **Database & Search**: PostgreSQL 16, SQLAlchemy 2.0 (Async), `pg_trgm`, `tsvector`
-- **AI Runtime**: Local Ollama daemon (`qwen3:8b`, `llama3.1:8b`)
-- **Containers**: Docker & Docker Compose
-- **Safety & Privacy**: Custom regex PII scrubber, independent rule-based safety orchestrator
-
----
-
-## Quick Start Guide
-
-### 1. Environment Setup
-
-```bash
-# Clone and enter directory
-cd /Volumes/SSD/gcms_ai_backend
-
-# Create Python virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
-
-# Install dependencies
-pip install -e ".[dev]"
-
-# Copy environment configuration
-cp .env.example .env
-```
-
-### 2. Start PostgreSQL & Redis via Docker
-
-```bash
-docker compose up -d
-```
-
-### 3. Start Local Ollama on macOS
-
-For maximum performance on Apple Silicon (M-series Metal GPU acceleration):
-
-```bash
-# Install Ollama (if not already installed)
-brew install ollama
-
-# Start the Ollama daemon
-ollama serve
-
-# In another terminal, pull the recommended clinical reasoning model
-ollama pull qwen3:8b
-# (Alternative: ollama pull llama3.1:8b)
-```
-
-### 4. Seed Development Terminology Data
-
-Populate the database with 50 common clinical SNOMED CT concepts and 40 Singapore Drug Dictionary medications:
-
-```bash
-python3 -m scripts.seed_dev_data
-```
-
-### 5. Launch the Backend Server
-
-```bash
-uvicorn app.main:app --reload --port 8000
-```
-
-The interactive API documentation is available at:
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
-- System Health Probe: `http://localhost:8000/api/v1/health`
-
----
-
 ## Directory Structure
 
 ```
 gcms_ai_backend/
 ├── pyproject.toml              # Build & dependency specifications
+├── requirements.txt            # Locked pip dependencies
 ├── docker-compose.yml          # PostgreSQL & Redis infrastructure
 ├── Dockerfile                  # Production container definition
 ├── .env.example                # Template configuration
+├── docs/                       # Business & technical documentation PDFs
 ├── scripts/
 │   ├── init_db.sql             # PostgreSQL extensions (pg_trgm, uuid-ossp)
 │   ├── seed_dev_data.py        # Synthetic SNOMED & SDD seed data
@@ -154,7 +312,7 @@ gcms_ai_backend/
 │   │   ├── diagnosis.py        # Differential diagnosis contracts
 │   │   └── medication.py       # Medication recommendation contracts
 │   ├── services/               # Terminology search engines
-│   │   ├── snomed_service.py   # FTS5 + pg_trgm SNOMED search
+│   │   ├── snomed_service.py   # FTS + pg_trgm SNOMED search
 │   │   └── sdd_service.py      # Multi-field SDD medication search
 │   ├── ai/                     # Local Ollama integration layer
 │   │   ├── base_provider.py    # Pluggable AI provider interface
@@ -178,6 +336,29 @@ gcms_ai_backend/
 │       └── v1/                 # REST endpoints
 └── tests/                      # Unit & integration test suites
 ```
+
+---
+
+## Troubleshooting & FAQ
+
+### 1. PostgreSQL Connection Refused (`connect: operation not permitted` or `Connection refused`)
+- Verify that Docker is running: `docker compose ps`
+- Start the containers: `docker compose up -d`
+- Check PostgreSQL container logs: `docker compose logs postgres`
+
+### 2. Ollama Connection Error (`Cannot reach Ollama at http://localhost:11434`)
+- Ensure Ollama daemon is running: `ollama serve`
+- Test connectivity: `curl http://localhost:11434/api/tags`
+- Check if port 11434 is in use: `lsof -i :11434`
+
+### 3. Model Not Found (`Model 'qwen3:8b' not found`)
+- Pull the model manually: `ollama pull qwen3:8b`
+- For semantic search embeddings: `ollama pull nomic-embed-text`
+- Verify with: `ollama list`
+
+### 4. Apple Silicon Metal GPU Acceleration
+- Ollama automatically detects Apple Silicon and utilizes Metal acceleration.
+- You can monitor GPU usage in macOS **Activity Monitor** under the **Window > GPU History** pane while running AI suggestions.
 
 ---
 
