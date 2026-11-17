@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "GCMS PostgreSQL (Local Docker)",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "gcms_ai",
+      "Username": "gcms",
+      "SSLMode": "prefer"
+    }
+  }
+}

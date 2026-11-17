@@ -120,27 +120,34 @@ cp .env.example .env
 
 ---
 
-### Step 3: Start Docker Services (PostgreSQL & Redis)
+### Step 3: Start Docker Services (PostgreSQL, Redis & pgAdmin 4)
 
-The project includes a `docker-compose.yml` that provisions PostgreSQL 16 and Redis 7 Alpine containers with volume persistence and health checks.
+The project includes a `docker-compose.yml` that provisions PostgreSQL 16, Redis 7 Alpine, and pgAdmin 4 containers with volume persistence and health checks.
 
 ```bash
 # Start Docker containers in the background
-docker compose up -d
+docker-compose up -d
 
 # Verify containers are running and healthy
-docker compose ps
+docker-compose ps
 ```
 
 #### Required Docker Images:
-| Image | Role | Default Port | Healthcheck |
+| Image | Role | Default Port | Healthcheck / Access |
 | :--- | :--- | :--- | :--- |
 | `postgres:16-alpine` (or `pgvector/pgvector:pg16`) | Terminology database (`gcms_ai`) with `pg_trgm`, `uuid-ossp`, and `vector` extensions | `5432` | `pg_isready -U gcms -d gcms_ai` |
 | `redis:7-alpine` | Session state, distributed rate limiting, and response caching | `6379` | `redis-cli ping` |
+| `dpage/pgadmin4:latest` | Web UI for PostgreSQL database management | `5050` | `http://localhost:5050` |
+
+#### pgAdmin 4 Web Management Access:
+- **URL**: [http://localhost:5050](http://localhost:5050)
+- **Email**: `admin@gcms.ai` (default)
+- **Password**: `admin` (default)
+- **Pre-configured Server**: `GCMS PostgreSQL (Local Docker)` is auto-loaded. When prompted to connect to the database, enter the password: `change_me_in_production` (or your configured `POSTGRES_PASSWORD`).
 
 To stop Docker services at any time:
 ```bash
-docker compose down
+docker-compose down
 ```
 
 ---
@@ -249,8 +256,9 @@ Interactive API documentation:
 | **Git** | `brew install git` / `apt install git` | Repository version control |
 | **Python 3.12** | `brew install python@3.12` / `apt install python3.12 python3.12-venv` | Backend application runtime |
 | **Docker Desktop / Colima** | `brew install --cask docker` / `apt install docker.io` | Container runtime for PostgreSQL & Redis |
-| **PostgreSQL 16 Image** | Pulled automatically via `docker compose up -d` | Terminology relational & vector database |
-| **Redis 7 Image** | Pulled automatically via `docker compose up -d` | In-memory cache & rate limiter |
+| **PostgreSQL 16 Image** | Pulled automatically via `docker-compose up -d` | Terminology relational & vector database |
+| **Redis 7 Image** | Pulled automatically via `docker-compose up -d` | In-memory cache & rate limiter |
+| **pgAdmin 4 Image** | Pulled automatically via `docker-compose up -d` | Database management web UI on `http://localhost:5050` |
 | **Ollama Daemon** | `brew install ollama` / `curl -fsSL https://ollama.com/install.sh \| sh` | Local AI inference engine |
 | **Ollama Model `qwen3:8b`** | `ollama pull qwen3:8b` | Clinical LLM reasoning & query entity parsing |
 | **Ollama Model `nomic-embed-text`** | `ollama pull nomic-embed-text` | 768-dim dense semantic vector embeddings |
