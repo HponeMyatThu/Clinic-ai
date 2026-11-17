@@ -30,7 +30,12 @@ env/
 .DS_Store
 Thumbs.db
 
-# Data files (licensed datasets — never commit)
+# Keys & secrets
+*.pem
+core/*.pem
+
+# Data files (licensed datasets & server exports — never commit)
+data/
 data/snomed/*.txt
 data/snomed/*.zip
 data/snomed/RF2/

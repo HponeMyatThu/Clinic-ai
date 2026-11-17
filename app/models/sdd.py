@@ -115,8 +115,8 @@ class SDDActiveIngredient(UUIDPrimaryKeyMixin, Base):
         index=True,
     )
     ingredient_name: Mapped[str] = mapped_column(String(500), nullable=False)
-    strength_value: Mapped[str | None] = mapped_column(String(100), nullable=True)
-    strength_unit: Mapped[str | None] = mapped_column(String(50), nullable=True)
+    strength_value: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    strength_unit: Mapped[str | None] = mapped_column(String(255), nullable=True)
     search_vector: Mapped[str | None] = mapped_column(
         TSVECTOR, nullable=True
     )
